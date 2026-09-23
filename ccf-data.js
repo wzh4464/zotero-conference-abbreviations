@@ -4,4772 +4,686 @@ var CCF_DATA = {
   "year": 2026,
   "source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "entries": [
-    {
-      "type": "journalArticle",
-      "abbr": "TOCS",
-      "name": "ACM Transactions on Computer Systems",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOS",
-      "name": "ACM Transactions on Storage",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCAD",
-      "name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TC",
-      "name": "IEEE Transactions on Computers",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TPDS",
-      "name": "IEEE Transactions on Parallel and Distributed Systems",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TACO",
-      "name": "ACM Transactions on Architecture and Code Optimization",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TAAS",
-      "name": "ACM Transactions on Autonomous and Adaptive Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TODAES",
-      "name": "ACM Transactions on Design Automation of Electronic Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TECS",
-      "name": "ACM Transactions on Embedded Computing Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TRETS",
-      "name": "ACM Transactions on Reconfigurable Technology and Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TVLSI",
-      "name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JPDC",
-      "name": "Journal of Parallel and Distributed Computing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JSA",
-      "name": "Journal of Systems Architecture: Embedded Software Design",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Parallel Computing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Performance Evaluation: An International Journal",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCC",
-      "name": "IEEE Transactions on Cloud Computing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JETC",
-      "name": "ACM Journal on Emerging Technologies in Computing Systems",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Concurrency and Computation: Practice and Experience",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DC",
-      "name": "Distributed Computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "FGCS",
-      "name": "Future Generation Computer Systems",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "Integration",
-      "name": "Integration, the VLSI Journal",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JETTA",
-      "name": "Journal of Electronic Testing-Theory and Applications",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JGC",
-      "name": "Journal of Grid computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "RTS",
-      "name": "Real-Time Systems",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TJSC",
-      "name": "The Journal of Supercomputing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCASI",
-      "name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CCF-THPC",
-      "name": "CCF Transactions on High Performance Computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TSUSC",
-      "name": "IEEE Transactions on Sustainable Computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PPoPP",
-      "name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FAST",
-      "name": "USENIX Conference on File and Storage Technologies",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DAC",
-      "name": "Design Automation Conference",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HPCA",
-      "name": "IEEE International Symposium on High Performance Computer Architecture",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MICRO",
-      "name": "IEEE/ACM International Symposium on Microarchitecture",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SC",
-      "name": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ASPLOS",
-      "name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISCA",
-      "name": "International Symposium on Computer Architecture",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACM SIGOPS ATC（原 USENIX ATC）",
-      "name": "ACM SIGOPS Annual Technical Conference",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EuroSys",
-      "name": "European Conference on Computer Systems",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HPDC",
-      "name": "The International ACM Symposium on High-Performance Parallel and Distributed Computing",
-      "rank": "A",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SoCC",
-      "name": "ACM Symposium on Cloud Computing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SPAA",
-      "name": "ACM Symposium on Parallelism in Algorithms and Architectures",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PODC",
-      "name": "ACM Symposium on Principles of Distributed Computing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FPGA",
-      "name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CGO",
-      "name": "The International Symposium on Code Generation and Optimization",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DATE",
-      "name": "Design, Automation & Test in Europe",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HOT CHIPS",
-      "name": "Hot Chips: A Symposium on High Performance Chips",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CLUSTER",
-      "name": "IEEE International Conference on Cluster Computing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICCD",
-      "name": "International Conference on Computer Design",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICCAD",
-      "name": "International Conference on Computer-Aided Design",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICDCS",
-      "name": "IEEE International Conference on Distributed Computing Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CODES+ISSS",
-      "name": "International Conference on Hardware/Software Co-design and System Synthesis",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HiPEAC",
-      "name": "International Conference on High Performance and Embedded Architectures and Compilers",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SIG-METRICS",
-      "name": "International Conference on Measurement and Modeling of Computer Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PACT",
-      "name": "International Conference on Parallel Architectures and Compilation Techniques",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICPP",
-      "name": "International Conference on Parallel Processing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICS",
-      "name": "International Conference on Supercomputing",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "VEE",
-      "name": "International Conference on Virtual Execution Environments",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IPDPS",
-      "name": "IEEE International Parallel & Distributed Processing Symposium",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "Performance",
-      "name": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ITC",
-      "name": "International Test Conference",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "LISA",
-      "name": "Large Installation System Administration Conference",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MSST",
-      "name": "Mass Storage Systems and Technologies",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "RTAS",
-      "name": "IEEE Real-Time and Embedded Technology and Applications Symposium",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "Euro-Par",
-      "name": "European Conference on Parallel and Distributed Computing Springer",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISCAS",
-      "name": "IEEE International Symposium on Circuits and Systems",
-      "rank": "B",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CF",
-      "name": "ACM International Conference on Computing Frontiers",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SYSTOR",
-      "name": "ACM International Systems and Storage Conference",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NOCS",
-      "name": "ACM/IEEE International Symposium on Networks-on-Chip",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ASAP",
-      "name": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ASP-DAC",
-      "name": "Asia and South Pacific Design Automation Conference",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ETS",
-      "name": "IEEE European Test Symposium",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FPL",
-      "name": "International Conference on Field-Programmable Logic and Applications",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FCCM",
-      "name": "IEEE Symposium on Field-Programmable Custom Computing Machines",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "GLSVLSI",
-      "name": "Great Lakes Symposium on VLSI",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ATS",
-      "name": "IEEE Asian Test Symposium",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HPCC",
-      "name": "IEEE International Conference on High Performance Computing and Communications",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HiPC",
-      "name": "IEEE International Conference on High Performance Computing, Data and Analytics",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MASCOTS",
-      "name": "International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISPA",
-      "name": "IEEE International Symposium on Parallel and Distributed Processing with Applications",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CCGRID",
-      "name": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NPC",
-      "name": "IFIP International Conference on Network and Parallel Computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICA3PP",
-      "name": "International Conference on Algorithms and Architectures for Parallel Processing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CASES",
-      "name": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FPT",
-      "name": "International Conference on Field-Programmable Technology",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICPADS",
-      "name": "International Conference on Parallel and Distributed Systems",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISLPED",
-      "name": "International Symposium on Low Power Electronics and Design",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISPD",
-      "name": "International Symposium on Physical Design",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HOTI",
-      "name": "IEEE Symposium on High-Performance Interconnects",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "VTS",
-      "name": "IEEE VLSI Test Symposium",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ITC-Asia",
-      "name": "International Test Conference in Asia",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SEC",
-      "name": "ACM/IEEE Symposium on Edge Computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NAS",
-      "name": "International Conference on Networking, Architecture and Storages",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HotStorage",
-      "name": "HotStorage",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "APPT",
-      "name": "International Symposium on Advanced Parallel Processing Technology",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "JCC",
-      "name": "International Conference on JointCloud Computing",
-      "rank": "C",
-      "category": "计算机体系结构/并行与分布计算/存储系统"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JSAC",
-      "name": "IEEE Journal on Selected Areas in Communications",
-      "rank": "A",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TMC",
-      "name": "IEEE Transactions on Mobile Computing",
-      "rank": "A",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TON",
-      "name": "IEEE Transactions on Networking（原 IEEE/ACM Transactions on Networking）",
-      "rank": "A",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOIT",
-      "name": "ACM Transactions on Internet Technology",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOMM",
-      "name": "ACM Transactions on Multimedia Computing, Communications and Applications",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOSN",
-      "name": "ACM Transactions on Sensor Networks",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CN",
-      "name": "Computer Networks",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCOM",
-      "name": "IEEE Transactions on Communications",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TWC",
-      "name": "IEEE Transactions on Wireless Communications",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Ad Hoc Networks",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CC",
-      "name": "Computer Communications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TNSM",
-      "name": "IEEE Transactions on Network and Service Management",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IET Communications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JNCA",
-      "name": "Journal of Network and Computer Applications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "MONET",
-      "name": "Mobile Networks and Applications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Networks",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PPNA",
-      "name": "Peer-to-Peer Networking and Applications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "WCMC",
-      "name": "Wireless Communications and Mobile Computing",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Wireless Networks",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IOT",
-      "name": "IEEE Internet of Things Journal",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TIOT",
-      "name": "ACM Transactions on Internet of Things",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SIGCOMM",
-      "name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
-      "rank": "A",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MobiCom",
-      "name": "ACM International Conference on Mobile Computing and Networking",
-      "rank": "A",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "INFOCOM",
-      "name": "IEEE International Conference on Computer Communications",
-      "rank": "A",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NSDI",
-      "name": "Symposium on Network System Design and Implementation",
-      "rank": "A",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SenSys",
-      "name": "ACM Conference on Embedded Networked Sensor Systems",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CoNEXT",
-      "name": "ACM International Conference on Emerging Networking Experiments and Technologies",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SECON",
-      "name": "IEEE International Conference on Sensing, Communication, and Networking",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IPSN",
-      "name": "International Conference on Information Processing in Sensor Networks",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MobiSys",
-      "name": "ACM International Conference on Mobile Systems, Applications, and Services",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICNP",
-      "name": "IEEE International Conference on Network Protocols",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MobiHoc",
-      "name": "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NOSSDAV",
-      "name": "International Workshop on Network and Operating System Support for Digital Audio and Video",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IWQoS",
-      "name": "IEEE/ACM International Workshop on Quality of Service",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IMC",
-      "name": "ACM Internet Measurement Conference",
-      "rank": "B",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ANCS",
-      "name": "ACM/IEEE Symposium on Architectures for Networking and Communication Systems",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "APNOMS",
-      "name": "Asia-Pacific Network Operations and Management Symposium",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FORTE",
-      "name": "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "LCN",
-      "name": "IEEE Conference on Local Computer Networks",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "GLOBECOM",
-      "name": "IEEE Global Communications Conference",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICC",
-      "name": "IEEE International Conference on Communications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICCCN",
-      "name": "IEEE International Conference on Computer Communications and Networks",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MASS",
-      "name": "IEEE International Conference on Mobile Adhoc and Sensor Systems",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "P2P",
-      "name": "IEEE International Conference on Peer-to-Peer Computing",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IPCCC",
-      "name": "IEEE International Performance Computing and Communications Conference",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WoWMoM",
-      "name": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISCC",
-      "name": "IEEE Symposium on Computers and Communications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WCNC",
-      "name": "IEEE Wireless Communications and Networking Conference",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "Networking",
-      "name": "IFIP International Conferences on Networking",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IM",
-      "name": "IFIP/IEEE International Symposium on Integrated Network Management",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MSN",
-      "name": "International Conference on Mobility, Sensing and Networking",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MSWiM",
-      "name": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WASA",
-      "name": "The International Conference on Wireless Artificial Intelligent Computing Systems and Applications",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HotNets",
-      "name": "ACM The Workshop on Hot Topics in Networks",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "APNet",
-      "name": "Asia-Pacific Workshop on Networking",
-      "rank": "C",
-      "category": "计算机网络"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TDSC",
-      "name": "IEEE Transactions on Dependable and Secure Computing",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TIFS",
-      "name": "IEEE Transactions on Information Forensics and Security",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Journal of Cryptology",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOPS",
-      "name": "ACM Transactions on Privacy and Security",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Computers & Security",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Designs, Codes and Cryptography",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JCS",
-      "name": "Journal of Computer Security",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "Cybersecurity",
-      "name": "Cybersecurity",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CLSR",
-      "name": "Computer Law & Security Review",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "EURASIP Journal on Information Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IET Information Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IMCS",
-      "name": "Information and Computer Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJICS",
-      "name": "International Journal of Information and Computer Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJISP",
-      "name": "International Journal of Information Security and Privacy",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JISA",
-      "name": "Journal of Information Security and Applications",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SCN",
-      "name": "Security and Communication Networks",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "HCC",
-      "name": "High-Confidence Computing",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CCS",
-      "name": "ACM Conference on Computer and Communications Security",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EUROCRYPT",
-      "name": "International Conference on the Theory and Applications of Cryptographic Techniques",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "S&P",
-      "name": "IEEE Symposium on Security and Privacy",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CRYPTO",
-      "name": "International Cryptology Conference",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "USENIX Security",
-      "name": "USENIX Security Symposium",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NDSS",
-      "name": "Network and Distributed System Security Symposium",
-      "rank": "A",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACSAC",
-      "name": "Annual Computer Security Applications Conference",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ASIACRYPT",
-      "name": "Annual International Conference on the Theory and Application of Cryptology and Information Security",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ESORICS",
-      "name": "European Symposium on Research in Computer Security",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FSE",
-      "name": "Fast Software Encryption",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CSFW",
-      "name": "IEEE Computer Security Foundations Workshop",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SRDS",
-      "name": "IEEE International Symposium on Reliable Distributed Systems",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CHES",
-      "name": "International Conference on Cryptographic Hardware and Embedded Systems",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DSN",
-      "name": "International Conference on Dependable Systems and Networks",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "RAID",
-      "name": "International Symposium on Recent Advances in Intrusion Detection",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PKC",
-      "name": "International Workshop on Practice and Theory in Public Key Cryptography",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "TCC",
-      "name": "Theory of Cryptography Conference",
-      "rank": "B",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WiSec",
-      "name": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SACMAT",
-      "name": "ACM Symposium on Access Control Models and Technologies",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DRM",
-      "name": "ACM Workshop on Digital Rights Management",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IH&MMSec",
-      "name": "ACM Workshop on Information Hiding and Multimedia Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACNS",
-      "name": "International Conference on Applied Cryptography and Network Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "AsiaCCS",
-      "name": "ACM Asia Conference on Computer and Communications Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACISP",
-      "name": "Australasia Conference on Information Security and Privacy",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CT-RSA",
-      "name": "The Cryptographer's Track at RSA Conference",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DIMVA",
-      "name": "Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DFRWS",
-      "name": "Digital Forensic Research Workshop",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FC",
-      "name": "Financial Cryptography and Data Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "TrustCom",
-      "name": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SEC",
-      "name": "IFIP International Information Security Conference",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IFIP WG 11.9",
-      "name": "IFIP Working Group 11.9 International Conference on Digital Forensics",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISC",
-      "name": "Information Security Conference",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICDF2C",
-      "name": "International Conference on Digital Forensics & Cyber Crime",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICICS",
-      "name": "International Conference on Information and Communications Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SecureComm",
-      "name": "International Conference on Security and Privacy in Communication Networks",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NSPW",
-      "name": "New Security Paradigms Workshop",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PAM",
-      "name": "Passive and Active Measurement Conference",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PETS",
-      "name": "Privacy Enhancing Technologies Symposium",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SAC",
-      "name": "Selected Areas in Cryptography",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SOUPS",
-      "name": "Symposium On Usable Privacy and Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HotSec",
-      "name": "USENIX Workshop on Hot Topics in Security",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EuroS&P",
-      "name": "IEEE European Symposium on Security and Privacy",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "Inscrypt",
-      "name": "International Conference on Information Security and Cryptology",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CODASPY",
-      "name": "Conference on Data and Application Security and Privacy",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "BlockSys",
-      "name": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CSCloud",
-      "name": "International Conference on Cyber Security and Cloud Computing",
-      "rank": "C",
-      "category": "网络与信息安全"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOPLAS",
-      "name": "ACM Transactions on Programming Languages and Systems",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOSEM",
-      "name": "ACM Transactions on Software Engineering and Methodology",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TSE",
-      "name": "IEEE Transactions on Software Engineering",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TSC",
-      "name": "IEEE Transactions on Services Computing",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "ASE",
-      "name": "Automated Software Engineering",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "ESE",
-      "name": "Empirical Software Engineering",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IETS",
-      "name": "IET Software",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IST",
-      "name": "Information and Software Technology",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JFP",
-      "name": "Journal of Functional Programming",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Journal of Software: Evolution and Process",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JSS",
-      "name": "Journal of Systems and Software",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "RE",
-      "name": "Requirements Engineering",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SCP",
-      "name": "Science of Computer Programming",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SoSyM",
-      "name": "Software and Systems Modeling",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "STVR",
-      "name": "Software Testing, Verification and Reliability",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SPE",
-      "name": "Software: Practice and Experience",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CL",
-      "name": "Computer Languages, Systems and Structures",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJSEKE",
-      "name": "International Journal of Software Engineering and Knowledge Engineering",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "STTT",
-      "name": "International Journal of Software Tools for Technology Transfer",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JLAMP",
-      "name": "Journal of Logical and Algebraic Methods in Programming",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JWE",
-      "name": "Journal of Web Engineering",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SOCA",
-      "name": "Service Oriented Computing and Applications",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SQJ",
-      "name": "Software Quality Journal",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TPLP",
-      "name": "Theory and Practice of Logic Programming",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PACM PL",
-      "name": "Proceedings of the ACM on Programming Languages",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PLDI",
-      "name": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "POPL",
-      "name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FSE",
-      "name": "ACM International Conference on the Foundations of Software Engineering",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SOSP",
-      "name": "ACM Symposium on Operating Systems Principles",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "OOPSLA",
-      "name": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ASE",
-      "name": "International Conference on Automated Software Engineering",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICSE",
-      "name": "International Conference on Software Engineering",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISSTA",
-      "name": "International Symposium on Software Testing and Analysis",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "OSDI",
-      "name": "USENIX Symposium on Operating Systems Design and Implementation",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FM",
-      "name": "International Symposium on Formal Methods",
-      "rank": "A",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ECOOP",
-      "name": "European Conference on Object-Oriented Programming",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ETAPS",
-      "name": "European Joint Conferences on Theory and Practice of Software",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICPC",
-      "name": "IEEE International Conference on Program Comprehension",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "RE",
-      "name": "IEEE International Requirements Engineering Conference",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CAiSE",
-      "name": "International Conference on Advanced Information Systems Engineering",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICFP",
-      "name": "ACM SIGPLAN International Conference on Function Programming",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "LCTES",
-      "name": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MoDELS",
-      "name": "ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CP",
-      "name": "International Conference on Principles and Practice of Constraint Programming",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICSOC",
-      "name": "International Conference on Service Oriented Computing",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SANER",
-      "name": "IEEE International Conference on Software Analysis, Evolution, and Reengineering",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICSME",
-      "name": "International Conference on Software Maintenance and Evolution",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "VMCAI",
-      "name": "International Conference on Verification, Model Checking and Abstract Interpretation",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICWS",
-      "name": "IEEE International Conference on Web Services",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "Middleware",
-      "name": "International Middleware Conference",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SAS",
-      "name": "International Static Analysis Symposium",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ESEM",
-      "name": "International Symposium on Empirical Software Engineering and Measurement",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISSRE",
-      "name": "IEEE International Symposium on Software Reliability Engineering",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HotOS",
-      "name": "USENIX Workshop on Hot Topics in Operating Systems",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CC",
-      "name": "International Conference on Compiler Construction",
-      "rank": "B",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PEPM",
-      "name": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PASTE",
-      "name": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "APLAS",
-      "name": "Asian Symposium on Programming Languages and Systems",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "APSEC",
-      "name": "Asia-Pacific Software Engineering Conference",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EASE",
-      "name": "International Conference on Evaluation and Assessment in Software Engineering",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICECCS",
-      "name": "International Conference on Engineering of Complex Computer Systems",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICST",
-      "name": "IEEE International Conference on Software Testing, Verification and Validation",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISPASS",
-      "name": "IEEE International Symposium on Performance Analysis of Systems and Software",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SCAM",
-      "name": "IEEE International Working Conference on Source Code Analysis and Manipulation",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "COMPSAC",
-      "name": "International Computer Software and Applications Conference",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICFEM",
-      "name": "International Conference on Formal Engineering Methods",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SSE",
-      "name": "IEEE International Conference on Software Services Engineering",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICSSP",
-      "name": "International Conference on Software and System Process",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SEKE",
-      "name": "International Conference on Software Engineering and Knowledge Engineering",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "QRS",
-      "name": "International Conference on Software Quality, Reliability and Security",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICSR",
-      "name": "International Conference on Software Reuse",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICWE",
-      "name": "International Conference on Web Engineering",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SPIN",
-      "name": "International Symposium on Model Checking of Software",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ATVA",
-      "name": "International Symposium on Automated Technology for Verification and Analysis",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "LOPSTR",
-      "name": "International Symposium on Logic-based Program Synthesis and Transformation",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "TASE",
-      "name": "Theoretical Aspects of Software Engineering Conference",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MSR",
-      "name": "Mining Software Repositories",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "REFSQ",
-      "name": "Requirements Engineering: Foundation for Software Quality",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WICSA",
-      "name": "Working IEEE/IFIP Conference on Software Architecture",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "Internetware",
-      "name": "Asia-Pacific Symposium on Internetware",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "RV",
-      "name": "International Conference on Runtime Verification",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MEMOCODE",
-      "name": "International Conference on Formal Methods and Models for Co-Design",
-      "rank": "C",
-      "category": "软件工程/系统软件/程序设计语言"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TODS",
-      "name": "ACM Transactions on Database Systems",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOIS",
-      "name": "ACM Transactions on Information Systems",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TKDE",
-      "name": "IEEE Transactions on Knowledge and Data Engineering",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "VLDBJ",
-      "name": "The VLDB Journal",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TKDD",
-      "name": "ACM Transactions on Knowledge Discovery from Data",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TWEB",
-      "name": "ACM Transactions on the Web",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "AEI",
-      "name": "Advanced Engineering Informatics",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DKE",
-      "name": "Data & Knowledge Engineering",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DMKD",
-      "name": "Data Mining and Knowledge Discovery",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "EJIS",
-      "name": "European Journal of Information Systems",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "GeoInformatica",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IPM",
-      "name": "Information Processing and Management",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Information Sciences",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IS",
-      "name": "Information Systems",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JASIST",
-      "name": "Journal of the Association for Information Science and Technology",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JWS",
-      "name": "Journal of Web Semantics",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "KAIS",
-      "name": "Knowledge and Information Systems",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DSE",
-      "name": "Data Science and Engineering",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DPD",
-      "name": "Distributed and Parallel Databases",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "I&M",
-      "name": "Information & Management",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IPL",
-      "name": "Information Processing Letters",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "（原 IR）",
-      "name": "Discover Computing（原 Information Retrieval Journal）",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJCIS",
-      "name": "International Journal of Cooperative Information Systems",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJGIS",
-      "name": "International Journal of Geographical Information Science",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJIS",
-      "name": "International Journal of Intelligent Systems",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJKM",
-      "name": "International Journal of Knowledge Management",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJSWIS",
-      "name": "International Journal on Semantic Web and Information Systems",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JCIS",
-      "name": "Journal of Computer Information Systems",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JDM",
-      "name": "Journal of Database Management",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JGITM",
-      "name": "Journal of Global Information Technology Management",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JIIS",
-      "name": "Journal of Intelligent Information Systems",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JSIS",
-      "name": "The Journal of Strategic Information Systems",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TIST",
-      "name": "ACM Transactions on Intelligent Systems and Technology",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TORS",
-      "name": "ACM Transactions on Recommender Systems",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SIGMOD",
-      "name": "ACM SIGMOD Conference",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SIGKDD",
-      "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICDE",
-      "name": "IEEE International Conference on Data Engineering",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SIGIR",
-      "name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "VLDB",
-      "name": "International Conference on Very Large Data Bases",
-      "rank": "A",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CIKM",
-      "name": "ACM International Conference on Information and Knowledge Management",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WSDM",
-      "name": "ACM International Conference on Web Search and Data Mining",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PODS",
-      "name": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DASFAA",
-      "name": "International Conference on Database Systems for Advanced Applications",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ECML-PKDD",
-      "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISWC",
-      "name": "IEEE International Semantic Web Conference",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICDM",
-      "name": "IEEE International Conference on Data Mining",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICDT",
-      "name": "International Conference on Database Theory",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EDBT",
-      "name": "International Conference on Extending Database Technology",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CIDR",
-      "name": "Conference on Innovative Data Systems Research",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SDM",
-      "name": "SIAM International Conference on Data Mining",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "RecSys",
-      "name": "ACM Conference on Recommender Systems",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WISE",
-      "name": "Web Information Systems Engineering Conference",
-      "rank": "B",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "APWeb",
-      "name": "Asia Pacific Web Conference",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DEXA",
-      "name": "International Conference on Database and Expert System Applications",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ECIR",
-      "name": "European Conference on Information Retrieval",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ESWC",
-      "name": "Extended Semantic Web Conference",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WebDB",
-      "name": "International Workshop on Web and Databases",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ER",
-      "name": "International Conference on Conceptual Modeling",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MDM",
-      "name": "International Conference on Mobile Data Management",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SSDBM",
-      "name": "International Conference on Scientific and Statistical Database Management",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WAIM",
-      "name": "International Conference on Web Age Information Management",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SSTD",
-      "name": "International Symposium on Spatial and Temporal Databases",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PAKDD",
-      "name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ADMA",
-      "name": "International Conference on Advanced Data Mining and Applications",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WISA",
-      "name": "Web Information Systems and Applications",
-      "rank": "C",
-      "category": "数据库/数据挖掘/内容检索"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TIT",
-      "name": "IEEE Transactions on Information Theory",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IANDC",
-      "name": "Information and Computation",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SICOMP",
-      "name": "SIAM Journal on Computing",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TALG",
-      "name": "ACM Transactions on Algorithms",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOCL",
-      "name": "ACM Transactions on Computational Logic",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOMS",
-      "name": "ACM Transactions on Mathematical Software",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "Algorithmica",
-      "name": "Algorithmica",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CC",
-      "name": "Computational Complexity",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "FAC",
-      "name": "Formal Aspects of Computing",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "FMSD",
-      "name": "Formal Methods in System Design",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "INFORMS",
-      "name": "INFORMS Journal on Computing",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JCSS",
-      "name": "Journal of Computer and System Sciences",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JGO",
-      "name": "Journal of Global Optimization",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JSC",
-      "name": "Journal of Symbolic Computation",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "MSCS",
-      "name": "Mathematical Structures in Computer Science",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCS",
-      "name": "Theoretical Computer Science",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "ACTA",
-      "name": "Acta Informatica",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "APAL",
-      "name": "Annals of Pure and Applied Logic",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DAM",
-      "name": "Discrete Applied Mathematics",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "FUIN",
-      "name": "Fundamenta Informaticae",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IPL",
-      "name": "Information Processing Letters",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JCOMPLEXI TY",
-      "name": "Journal of Complexity",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "LOGCOM",
-      "name": "Journal of Logic and Computation",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JSL",
-      "name": "The Journal of Symbolic Logic",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "LMCS",
-      "name": "Logical Methods in Computer Science",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SIDMA",
-      "name": "SIAM Journal on Discrete Mathematics",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Theory of Computing Systems",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TQC",
-      "name": "ACM Transactions in Quantum Computing",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "STOC",
-      "name": "ACM Symposium on the Theory of Computing",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SODA",
-      "name": "ACM-SIAM Symposium on Discrete Algorithms",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CAV",
-      "name": "International Conference on Computer Aided Verification",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FOCS",
-      "name": "IEEE Annual Symposium on Foundations of Computer Science",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "LICS",
-      "name": "ACM/IEEE Symposium on Logic in Computer Science",
-      "rank": "A",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SoCG",
-      "name": "International Symposium on Computational Geometry",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ESA",
-      "name": "European Symposium on Algorithms",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CCC",
-      "name": "Conference on Computational Complexity",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICALP",
-      "name": "International Colloquium on Automata, Languages and Programming",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CADE",
-      "name": "Conference on Automated Deduction",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CONCUR",
-      "name": "International Conference on Concurrency Theory",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "HSCC",
-      "name": "International Conference on Hybrid Systems: Computation and Control",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SAT",
-      "name": "International Conference on Theory and Applications of Satisfiability Testing",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "COCOON",
-      "name": "International Computing and Combinatorics Conference",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FMCAD",
-      "name": "Formal Methods in Computer-Aided Design",
-      "rank": "B",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CSL",
-      "name": "Computer Science Logic",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FSTTCS",
-      "name": "Foundations of Software Technology and Theoretical Computer Science",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DSAA",
-      "name": "IEEE International Conference on Data Science and Advanced Analytics",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICTAC",
-      "name": "International Colloquium on Theoretical Aspects of Computing",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IPCO",
-      "name": "International Conference on Integer Programming and Combinatorial Optimization",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FSCD（原 RTA）",
-      "name": "International Conference on Formal Structures for Computation and Deduction",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISAAC",
-      "name": "International Symposium on Algorithms and Computation",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MFCS",
-      "name": "International Conference on Mathematical Foundations of Computer Science",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "STACS",
-      "name": "Symposium on Theoretical Aspects of Computer Science",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SETTA",
-      "name": "International Symposium on Software Engineering: Theories, Tools, and Applications",
-      "rank": "C",
-      "category": "计算机科学理论"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOG",
-      "name": "ACM Transactions on Graphics",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TIP",
-      "name": "IEEE Transactions on Image Processing",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TVCG",
-      "name": "IEEE Transactions on Visualization and Computer Graphics",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TMM",
-      "name": "IEEE Transactions on Multimedia",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOMM",
-      "name": "ACM Transactions on Multimedia Computing, Communications and Applications",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CAGD",
-      "name": "Computer Aided Geometric Design",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CGF",
-      "name": "Computer Graphics Forum",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CAD",
-      "name": "Computer-Aided Design",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCSVT",
-      "name": "IEEE Transactions on Circuits and Systems for Video Technology",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JASA",
-      "name": "The Journal of the Acoustical Society of America",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SIIMS",
-      "name": "SIAM Journal on Imaging Sciences",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SPECOM",
-      "name": "Speech Communication",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CVMJ",
-      "name": "Computational Visual Media",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CGTA",
-      "name": "Computational Geometry: Theory and Applications",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CAVW",
-      "name": "Computer animation & virtual worlds",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "C&G",
-      "name": "Computers & Graphics",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DCG",
-      "name": "Discrete & Computational Geometry",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SPL",
-      "name": "IEEE Signal Processing Letters",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IET-IPR",
-      "name": "IET Image Processing",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JVCIR",
-      "name": "Journal of Visual Communication and Image Representation",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "MS",
-      "name": "Multimedia Systems",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "MTA",
-      "name": "Multimedia Tools and Applications",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SIGPRO",
-      "name": "Signal Processing",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IMAGE",
-      "name": "Signal Processing: Image Communication",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TVC",
-      "name": "The Visual Computer",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "VI",
-      "name": "Visual Informatics",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "VRIH",
-      "name": "Virtual Reality & Intelligent Hardware",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "GMOD",
-      "name": "Graphical Models",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACM MM",
-      "name": "ACM International Conference on Multimedia",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SIGGRAPH",
-      "name": "ACM Special Interest Group on Computer Graphics",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "VR",
-      "name": "IEEE Conference on Virtual Reality and 3D User Interfaces（原 IEEE Virtual Reality）",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IEEE VIS",
-      "name": "IEEE Visualization Conference",
-      "rank": "A",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICMR",
-      "name": "ACM SIGMM International Conference on Multimedia Retrieval",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "I3D",
-      "name": "ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SCA",
-      "name": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DCC",
-      "name": "Data Compression Conference",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "Eurographics",
-      "name": "Annual Conference of the European Association for Computer Graphics",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EuroVis",
-      "name": "Eurographics Conference on Visualization",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SGP",
-      "name": "Eurographics Symposium on Geometry Processing",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EGSR",
-      "name": "Eurographics Symposium on Rendering",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICASSP",
-      "name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICME",
-      "name": "IEEE International Conference on Multimedia & Expo",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISMAR",
-      "name": "International Symposium on Mixed and Augmented Reality",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PG",
-      "name": "Pacific Conference onComputer Graphics and Applications",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SPM",
-      "name": "Symposium on Solid and Physical Modeling",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "INTER-SPEECH",
-      "name": "Conference of the International Speech Communication Association",
-      "rank": "B",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "VRST",
-      "name": "ACM Symposium on Virtual Reality Software and Technology",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CASAXR（原 CASA）",
-      "name": "International Conference on Computer Animation, Social Agents, and Extended Reality（原 International Conference on Computer Animation and Social Agents）",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CGI",
-      "name": "Computer Graphics International",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "GMP",
-      "name": "Geometric Modeling and Processing",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PacificVis",
-      "name": "IEEE Pacific Visualization Symposium",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "3DV",
-      "name": "International Conference on 3D Vision",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CAD/Graphics",
-      "name": "International Conference on Computer-Aided Design and Computer Graphics Processing",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICIP",
-      "name": "IEEE International Conference on Image Processing",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MMM",
-      "name": "International Conference on Multimedia Modeling",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MMAsia",
-      "name": "ACM Multimedia Asia",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SMI",
-      "name": "Shape Modeling International",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CVM",
-      "name": "Computational Visual Media",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PRCV",
-      "name": "Chinese Conference on Pattern Recognition and Computer Vision",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICIG",
-      "name": "International Conference on Image and Graphics",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NCMMSC",
-      "name": "National Conference on Man-Machine Speech Communication",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ASRU",
-      "name": "Automatic Speech Recognition and Understanding Workshop",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SLT",
-      "name": "Spoken Language Technology",
-      "rank": "C",
-      "category": "计算机图形学与多媒体"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "AI",
-      "name": "Artificial Intelligence",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TPAMI",
-      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJCV",
-      "name": "International Journal of Computer Vision",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JMLR",
-      "name": "Journal of Machine Learning Research",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TAP",
-      "name": "ACM Transactions on Applied Perception",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "AAMAS",
-      "name": "Autonomous Agents and Multi-Agent Systems",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Computational Linguistics",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CVIU",
-      "name": "Computer Vision and Image Understanding",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DKE",
-      "name": "Data & Knowledge Engineering",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Evolutionary Computation",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TAC",
-      "name": "IEEE Transactions on Affective Computing",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TASLP",
-      "name": "IEEE Transactions on Audio, Speech and Language Processing（原 IEEE/ACM Transactions on Audio, Speech and Language Processing）",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IEEE Transactions on Cybernetics",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TEC",
-      "name": "IEEE Transactions on Evolutionary Computation",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TFS",
-      "name": "IEEE Transactions on Fuzzy Systems",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TNNLS",
-      "name": "IEEE Transactions on Neural Networks and learning systems",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJAR",
-      "name": "International Journal of Approximate Reasoning",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JAIR",
-      "name": "Journal of Artificial Intelligence Research",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Journal of Automated Reasoning",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JSLHR",
-      "name": "Journal of Speech, Language, and Hearing Research",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Machine Learning",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Neural Computation",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Neural Networks",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PR",
-      "name": "Pattern Recognition",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TACL",
-      "name": "Transactions of the Association for Computational Linguistics",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TALLIP",
-      "name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Applied Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "AIM",
-      "name": "Artificial Intelligence in Medicine",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Artificial Life",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Computational Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Computer Speech & Language",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Connection Science",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "DSS",
-      "name": "Decision Support Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "EAAI",
-      "name": "Engineering Applications of Artificial Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Expert Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "ESWA",
-      "name": "Expert Systems with Applications",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Fuzzy Sets and Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TG",
-      "name": "IEEE Transactions on Games",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IET-CVI",
-      "name": "IET Computer Vision",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IET Signal Processing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IVC",
-      "name": "Image and Vision Computing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IDA",
-      "name": "Intelligent Data Analysis",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJCIA",
-      "name": "International Journal of Computational Intelligence and Applications",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJIS",
-      "name": "International Journal of Intelligent Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJNS",
-      "name": "International Journal of Neural Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJPRAI",
-      "name": "International Journal of Pattern Recognition and Artificial Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJUFKS",
-      "name": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJDAR",
-      "name": "International Journal on Document Analysis and Recognition",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JETAI",
-      "name": "Journal of Experimental and Theoretical Artificial Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "KBS",
-      "name": "Knowledge-Based Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Machine Translation",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Machine Vision and Applications",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Natural Computing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "NLE",
-      "name": "Natural Language Engineering",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "NCA",
-      "name": "Neural Computing and Applications",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "NPL",
-      "name": "Neural Processing Letters",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Neurocomputing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PAA",
-      "name": "Pattern Analysis and Applications",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PRL",
-      "name": "Pattern Recognition Letters",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Soft Computing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "WI",
-      "name": "Web Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TIIS",
-      "name": "ACM Transactions on Interactive Intelligent Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TELO",
-      "name": "ACM Transactions on Evolutionary Learning and Optimization",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JATS",
-      "name": "ACM Journal on Autonomous Transportation Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "AAAI",
-      "name": "AAAI Conference on Artificial Intelligence",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NeurIPS",
-      "name": "Conference on Neural Information Processing Systems",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACL",
-      "name": "Annual Meeting of the Association for Computational Linguistics",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CVPR",
-      "name": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICCV",
-      "name": "International Conference on Computer Vision",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICML",
-      "name": "International Conference on Machine Learning",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICLR",
-      "name": "International Conference on Learning Representations",
-      "rank": "A",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "COLT",
-      "name": "Annual Conference on Computational Learning Theory",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EMNLP",
-      "name": "Conference on Empirical Methods in Natural Language Processing",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ECAI",
-      "name": "European Conference on Artificial Intelligence",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ECCV",
-      "name": "European Conference on Computer Vision",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICRA",
-      "name": "IEEE International Conference on Robotics and Automation",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICAPS",
-      "name": "International Conference on Automated Planning and Scheduling",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICCBR",
-      "name": "International Conference on Case-Based Reasoning",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "COLING",
-      "name": "International Conference on Computational Linguistics",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "KR",
-      "name": "International Conference on Principles of Knowledge Representation and Reasoning",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "UAI",
-      "name": "Conference on Uncertainty in Artificial Intelligence",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "AAMAS",
-      "name": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PPSN",
-      "name": "Parallel Problem Solving from Nature",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NAACL",
-      "name": "North American Chapter of the Association for Computational Linguistics",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IJCAI",
-      "name": "International Joint Conference on Artificial Intelligence",
-      "rank": "B",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "AISTATS",
-      "name": "International Conference on Artificial Intelligence and Statistics",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACCV",
-      "name": "Asian Conference on Computer Vision",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ACML",
-      "name": "Asian Conference on Machine Learning",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "BMVC",
-      "name": "British Machine Vision Conference",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "NLPCC",
-      "name": "CCF International Conference on Natural Language Processing and Chinese Computing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CoNLL",
-      "name": "Conference on Computational Natural Language Learning",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "GECCO",
-      "name": "Genetic and Evolutionary Computation Conference",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICTAI",
-      "name": "IEEE International Conference on Tools with Artificial Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IROS",
-      "name": "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ALT",
-      "name": "International Conference on Algorithmic Learning Theory",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICANN",
-      "name": "International Conference on Artificial Neural Networks",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "FG",
-      "name": "IEEE International Conference on Automatic Face and Gesture Recognition",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICDAR",
-      "name": "International Conference on Document Analysis and Recognition",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ILP",
-      "name": "International Conference on Inductive Logic Programming",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "KSEM",
-      "name": "International conference on Knowledge Science, Engineering and Management",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICONIP",
-      "name": "International Conference on Neural Information Processing",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICPR",
-      "name": "International Conference on Pattern Recognition",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IJCB",
-      "name": "International Joint Conference on Biometrics",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IJCNN",
-      "name": "International Joint Conference on Neural Networks",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PRICAI",
-      "name": "Pacific Rim International Conference on Artificial Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IEEE CEC",
-      "name": "Congress on Evolutionary Computation",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DAI",
-      "name": "International Conference on Distributed Artificial Intelligence",
-      "rank": "C",
-      "category": "人工智能"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOCHI",
-      "name": "ACM Transactions on Computer-Human Interaction",
-      "rank": "A",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJHCS",
-      "name": "International Journal of Human-Computer Studies",
-      "rank": "A",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CSCW",
-      "name": "Computer Supported Cooperative Work",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "HCI",
-      "name": "Human-Computer Interaction",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IEEE Transactions on Human-Machine Systems",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IWC",
-      "name": "Interacting with Computers",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "IJHCI",
-      "name": "International Journal of Human-Computer Interaction",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "UMUAI",
-      "name": "User Modeling and User-Adapted Interaction",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TSMC",
-      "name": "IEEE Transactions on Systems, Man,and Cybernetics: Systems",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "CCF TPCI",
-      "name": "CCF Transactions on Pervasive Computing and Interaction",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "BIT",
-      "name": "Behaviour & Information Technology",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PUC",
-      "name": "Personal and Ubiquitous Computing",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PMC",
-      "name": "Pervasive and Mobile Computing",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "PACMHCI",
-      "name": "Proceedings of the ACM on Human-Computer Interaction",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "THRI",
-      "name": "ACM Transactions on Human-Robot Interaction",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CSCW",
-      "name": "ACM Conference On Computer-Supported Cooperative Work And Social Computing",
-      "rank": "A",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CHI",
-      "name": "ACM Conference on Human Factors in Computing Systems",
-      "rank": "A",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "UbiComp",
-      "name": "ACM international joint conference on Pervasive and Ubiquitous Computing",
-      "rank": "A",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "UIST",
-      "name": "ACM Symposium on User Interface Software and Technology",
-      "rank": "A",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "GROUP",
-      "name": "ACM International Conference on Supporting Group Work",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IUI",
-      "name": "ACM International Conference on Intelligent User Interfaces",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISS",
-      "name": "ACM International Conference on Interactive Surfaces and Spaces",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ECSCW",
-      "name": "European Conference on Computer Supported Cooperative Work",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "PERCOM",
-      "name": "IEEE International Conference on Pervasive Computing and Communications",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MobileHCI",
-      "name": "ACM International Conference on Mobile Human- Computer Interaction",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICWSM",
-      "name": "The International AAAI Conference on Web and Social Media",
-      "rank": "B",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "DIS",
-      "name": "ACM SIGCHI Conference on Designing Interactive Systems",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICMI",
-      "name": "ACM International Conference on Multimodal Interaction",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ASSETS",
-      "name": "International ACM SIGACCESS Conference on Computers and Accessibility",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "GI",
-      "name": "Graphics Interface",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "UIC",
-      "name": "IEEE International Conference on Ubiquitous Intelligence and Computing",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "",
-      "name": "IEEE World Haptics Conference",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "INTERACT",
-      "name": "International Conference on Human- Computer Interaction of International Federation for Information Processing",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IDC",
-      "name": "ACM Interaction Design and Children",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CollaborateCom",
-      "name": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CSCWD",
-      "name": "International Conference on Computer Supported Cooperative Work in Design",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CoopIS",
-      "name": "International Conference on Cooperative Information Systems",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MobiQuitous",
-      "name": "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "AVI",
-      "name": "International Working Conference on Advanced Visual Interfaces",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "GPC",
-      "name": "Conference on Green, Pervasive and Cloud Computing",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICXR",
-      "name": "CCF International Conference on Extended Reality",
-      "rank": "C",
-      "category": "人机交互与普适计算"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JACM",
-      "name": "Journal of the ACM",
-      "rank": "A",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "Proc. IEEE",
-      "name": "Proceedings of the IEEE",
-      "rank": "A",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "SCIS",
-      "name": "Science China Information Sciences",
-      "rank": "A",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "Bioinformatics",
-      "name": "Bioinformatics",
-      "rank": "A",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Briefings in Bioinformatics",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "Cognition",
-      "name": "Cognition",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TASAE",
-      "name": "IEEE Transactions on Automation Science and Engineering",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TGARS",
-      "name": "IEEE Transactions on Geoscience and Remote Sensing",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TITS",
-      "name": "IEEE Transactions on Intelligent Transportation Systems",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TMI",
-      "name": "IEEE Transactions on Medical Imaging",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TR",
-      "name": "IEEE Transactions on Robotics",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCBB",
-      "name": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JCST",
-      "name": "Journal of Computer Science and Technology",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JAMIA",
-      "name": "Journal of the American Medical Informatics Association",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "PLOS Computational Biology",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "The Computer Journal",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "WWW",
-      "name": "World Wide Web",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "FCS",
-      "name": "Frontiers of Computer Science",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "BCRA",
-      "name": "Blockchain: Research and Applications",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "BMC Bioinformatics",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Cybernetics and Systems",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IEEE Geoscience and Remote Sensing Letters",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JBHI",
-      "name": "IEEE Journal of Biomedical and Health Informatics",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TBD",
-      "name": "IEEE Transactions on Big Data",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IET Intelligent Transport Systems",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "JBI",
-      "name": "Journal of Biomedical Informatics",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "Medical Image Analysis",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TII",
-      "name": "IEEE Transactions on Industrial Informatics",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCPS",
-      "name": "ACM Transactions on Cyber-Physical Systems",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TOCE",
-      "name": "ACM Transactions on Computing Education",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "EITEE（原 FITEE）",
-      "name": "ENGINEERING Information Technology & Electronic Engineering（原 Frontiers of Information Technology & Electronic Engineering）",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "TCSS",
-      "name": "IEEE Transactions on Computational Social Systems",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "",
-      "name": "IEEE Transactions on Reliability",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "HEALTH",
-      "name": "ACM Transactions on Computing for Healthcare",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "journalArticle",
-      "abbr": "ACM DLT",
-      "name": "ACM Distributed Ledger Technologies: Research and Practice",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WWW",
-      "name": "The Web Conference（原 International World Wide Web Conference）",
-      "rank": "A",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "RTSS",
-      "name": "IEEE Real-Time Systems Symposium",
-      "rank": "A",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "CogSci",
-      "name": "Annual Meeting of the Cognitive Science Society",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "BIBM",
-      "name": "IEEE International Conference on Bioinformatics and Biomedicine",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "EMSOFT",
-      "name": "International Conference on Embedded Software",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISMB",
-      "name": "International conference on Intelligent Systems for Molecular Biology",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "RECOMB",
-      "name": "Annual International Conference on Research in Computational Molecular Biology",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "MICCAI",
-      "name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "WINE",
-      "name": "Conference on Web and Internet Economics",
-      "rank": "B",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "AMIA",
-      "name": "American Medical Informatics Association Annual Symposium",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "APBC",
-      "name": "Asia Pacific Bioinformatics Conference",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IEEE BigData",
-      "name": "IEEE International Conference on Big Data",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IEEE CLOUD",
-      "name": "IEEE International Conference on Cloud Computing",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SMC",
-      "name": "IEEE International Conference on Systems, Man, and Cybernetics",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "COSIT",
-      "name": "International Conference on Spatial Information Theory",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ISBRA",
-      "name": "International Symposium on Bioinformatics Research and Applications",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SAGT",
-      "name": "International Symposium on Algorithmic Game Theory",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "SIGSPATIAL",
-      "name": "ACM Special Interest Group on Spatial Information",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICIC",
-      "name": "International Conference on Intelligent Computing",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "ICSS",
-      "name": "International Conference on Service Science",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "AFT",
-      "name": "Advances in Financial Technologies",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    },
-    {
-      "type": "conferencePaper",
-      "abbr": "IJTCS-FAW",
-      "name": "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom",
-      "rank": "C",
-      "category": "交叉/综合/新兴"
-    }
+    {"type":"journalArticle","abbr":"TOCS","name":"ACM Transactions on Computer Systems","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TOS","name":"ACM Transactions on Storage","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TCAD","name":"IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TC","name":"IEEE Transactions on Computers","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TPDS","name":"IEEE Transactions on Parallel and Distributed Systems","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TACO","name":"ACM Transactions on Architecture and Code Optimization","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TAAS","name":"ACM Transactions on Autonomous and Adaptive Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TODAES","name":"ACM Transactions on Design Automation of Electronic Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TECS","name":"ACM Transactions on Embedded Computing Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TRETS","name":"ACM Transactions on Reconfigurable Technology and Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TVLSI","name":"IEEE Transactions on Very Large Scale Integration (VLSI) Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"JPDC","name":"Journal of Parallel and Distributed Computing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"JSA","name":"Journal of Systems Architecture: Embedded Software Design","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"","name":"Parallel Computing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"","name":"Performance Evaluation: An International Journal","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TCC","name":"IEEE Transactions on Cloud Computing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"JETC","name":"ACM Journal on Emerging Technologies in Computing Systems","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"","name":"Concurrency and Computation: Practice and Experience","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"DC","name":"Distributed Computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"FGCS","name":"Future Generation Computer Systems","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"Integration","name":"Integration, the VLSI Journal","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"JETTA","name":"Journal of Electronic Testing-Theory and Applications","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"JGC","name":"Journal of Grid computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"RTS","name":"Real-Time Systems","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TJSC","name":"The Journal of Supercomputing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TCASI","name":"IEEE Transactions on Circuits and Systems I: Regular Papers","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"CCF-THPC","name":"CCF Transactions on High Performance Computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"TSUSC","name":"IEEE Transactions on Sustainable Computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"PPoPP","name":"ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"FAST","name":"USENIX Conference on File and Storage Technologies","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"DAC","name":"Design Automation Conference","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HPCA","name":"IEEE International Symposium on High Performance Computer Architecture","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"MICRO","name":"IEEE/ACM International Symposium on Microarchitecture","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"SC","name":"International Conference for High Performance Computing, Networking, Storage, and Analysis","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ASPLOS","name":"International Conference on Architectural Support for Programming Languages and Operating Systems","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ISCA","name":"International Symposium on Computer Architecture","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ACM SIGOPS ATC（原 USENIX ATC）","name":"ACM SIGOPS Annual Technical Conference","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"EuroSys","name":"European Conference on Computer Systems","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HPDC","name":"The International ACM Symposium on High-Performance Parallel and Distributed Computing","rank":"A","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"SoCC","name":"ACM Symposium on Cloud Computing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"SPAA","name":"ACM Symposium on Parallelism in Algorithms and Architectures","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"PODC","name":"ACM Symposium on Principles of Distributed Computing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"FPGA","name":"ACM/SIGDA International Symposium on Field-Programmable Gate Arrays","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"CGO","name":"The International Symposium on Code Generation and Optimization","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"DATE","name":"Design, Automation & Test in Europe","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HOT CHIPS","name":"Hot Chips: A Symposium on High Performance Chips","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"CLUSTER","name":"IEEE International Conference on Cluster Computing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ICCD","name":"International Conference on Computer Design","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ICCAD","name":"International Conference on Computer-Aided Design","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ICDCS","name":"IEEE International Conference on Distributed Computing Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"CODES+ISSS","name":"International Conference on Hardware/Software Co-design and System Synthesis","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HiPEAC","name":"International Conference on High Performance and Embedded Architectures and Compilers","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"SIG-METRICS","name":"International Conference on Measurement and Modeling of Computer Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"PACT","name":"International Conference on Parallel Architectures and Compilation Techniques","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ICPP","name":"International Conference on Parallel Processing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ICS","name":"International Conference on Supercomputing","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"VEE","name":"International Conference on Virtual Execution Environments","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"IPDPS","name":"IEEE International Parallel & Distributed Processing Symposium","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"Performance","name":"International Symposium on Computer Performance, Modeling, Measurements and Evaluation","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ITC","name":"International Test Conference","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"LISA","name":"Large Installation System Administration Conference","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"MSST","name":"Mass Storage Systems and Technologies","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"RTAS","name":"IEEE Real-Time and Embedded Technology and Applications Symposium","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"Euro-Par","name":"European Conference on Parallel and Distributed Computing Springer","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ISCAS","name":"IEEE International Symposium on Circuits and Systems","rank":"B","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"CF","name":"ACM International Conference on Computing Frontiers","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"SYSTOR","name":"ACM International Systems and Storage Conference","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"NOCS","name":"ACM/IEEE International Symposium on Networks-on-Chip","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ASAP","name":"IEEE International Conference on Application-Specific Systems, Architectures, and Processors","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ASP-DAC","name":"Asia and South Pacific Design Automation Conference","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ETS","name":"IEEE European Test Symposium","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"FPL","name":"International Conference on Field-Programmable Logic and Applications","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"FCCM","name":"IEEE Symposium on Field-Programmable Custom Computing Machines","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"GLSVLSI","name":"Great Lakes Symposium on VLSI","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ATS","name":"IEEE Asian Test Symposium","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HPCC","name":"IEEE International Conference on High Performance Computing and Communications","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HiPC","name":"IEEE International Conference on High Performance Computing, Data and Analytics","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"MASCOTS","name":"International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ISPA","name":"IEEE International Symposium on Parallel and Distributed Processing with Applications","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"CCGRID","name":"IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"NPC","name":"IFIP International Conference on Network and Parallel Computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ICA3PP","name":"International Conference on Algorithms and Architectures for Parallel Processing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"CASES","name":"International Conference on Compilers, Architectures, and Synthesis for Embedded Systems","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"FPT","name":"International Conference on Field-Programmable Technology","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ICPADS","name":"International Conference on Parallel and Distributed Systems","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ISLPED","name":"International Symposium on Low Power Electronics and Design","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ISPD","name":"International Symposium on Physical Design","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HOTI","name":"IEEE Symposium on High-Performance Interconnects","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"VTS","name":"IEEE VLSI Test Symposium","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"ITC-Asia","name":"International Test Conference in Asia","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"SEC","name":"ACM/IEEE Symposium on Edge Computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"NAS","name":"International Conference on Networking, Architecture and Storages","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"HotStorage","name":"HotStorage","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"APPT","name":"International Symposium on Advanced Parallel Processing Technology","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"conferencePaper","abbr":"JCC","name":"International Conference on JointCloud Computing","rank":"C","category":"计算机体系结构/并行与分布计算/存储系统"},
+    {"type":"journalArticle","abbr":"JSAC","name":"IEEE Journal on Selected Areas in Communications","rank":"A","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TMC","name":"IEEE Transactions on Mobile Computing","rank":"A","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TON","name":"IEEE Transactions on Networking（原 IEEE/ACM Transactions on Networking）","rank":"A","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TOIT","name":"ACM Transactions on Internet Technology","rank":"B","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TOMM","name":"ACM Transactions on Multimedia Computing, Communications and Applications","rank":"B","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TOSN","name":"ACM Transactions on Sensor Networks","rank":"B","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"CN","name":"Computer Networks","rank":"B","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TCOM","name":"IEEE Transactions on Communications","rank":"B","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TWC","name":"IEEE Transactions on Wireless Communications","rank":"B","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"","name":"Ad Hoc Networks","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"CC","name":"Computer Communications","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TNSM","name":"IEEE Transactions on Network and Service Management","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"","name":"IET Communications","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"JNCA","name":"Journal of Network and Computer Applications","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"MONET","name":"Mobile Networks and Applications","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"","name":"Networks","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"PPNA","name":"Peer-to-Peer Networking and Applications","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"WCMC","name":"Wireless Communications and Mobile Computing","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"","name":"Wireless Networks","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"IOT","name":"IEEE Internet of Things Journal","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TIOT","name":"ACM Transactions on Internet of Things","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"SIGCOMM","name":"ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication","rank":"A","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"MobiCom","name":"ACM International Conference on Mobile Computing and Networking","rank":"A","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"INFOCOM","name":"IEEE International Conference on Computer Communications","rank":"A","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"NSDI","name":"Symposium on Network System Design and Implementation","rank":"A","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"SenSys","name":"ACM Conference on Embedded Networked Sensor Systems","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"CoNEXT","name":"ACM International Conference on Emerging Networking Experiments and Technologies","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"SECON","name":"IEEE International Conference on Sensing, Communication, and Networking","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"IPSN","name":"International Conference on Information Processing in Sensor Networks","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"MobiSys","name":"ACM International Conference on Mobile Systems, Applications, and Services","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"ICNP","name":"IEEE International Conference on Network Protocols","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"MobiHoc","name":"International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"NOSSDAV","name":"International Workshop on Network and Operating System Support for Digital Audio and Video","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"IWQoS","name":"IEEE/ACM International Workshop on Quality of Service","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"IMC","name":"ACM Internet Measurement Conference","rank":"B","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"ANCS","name":"ACM/IEEE Symposium on Architectures for Networking and Communication Systems","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"APNOMS","name":"Asia-Pacific Network Operations and Management Symposium","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"FORTE","name":"International Conference on Formal Techniques for Distributed Objects, Components, and Systems","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"LCN","name":"IEEE Conference on Local Computer Networks","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"GLOBECOM","name":"IEEE Global Communications Conference","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"ICC","name":"IEEE International Conference on Communications","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"ICCCN","name":"IEEE International Conference on Computer Communications and Networks","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"MASS","name":"IEEE International Conference on Mobile Adhoc and Sensor Systems","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"P2P","name":"IEEE International Conference on Peer-to-Peer Computing","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"IPCCC","name":"IEEE International Performance Computing and Communications Conference","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"WoWMoM","name":"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"ISCC","name":"IEEE Symposium on Computers and Communications","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"WCNC","name":"IEEE Wireless Communications and Networking Conference","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"Networking","name":"IFIP International Conferences on Networking","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"IM","name":"IFIP/IEEE International Symposium on Integrated Network Management","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"MSN","name":"International Conference on Mobility, Sensing and Networking","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"MSWiM","name":"International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"WASA","name":"The International Conference on Wireless Artificial Intelligent Computing Systems and Applications","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"HotNets","name":"ACM The Workshop on Hot Topics in Networks","rank":"C","category":"计算机网络"},
+    {"type":"conferencePaper","abbr":"APNet","name":"Asia-Pacific Workshop on Networking","rank":"C","category":"计算机网络"},
+    {"type":"journalArticle","abbr":"TDSC","name":"IEEE Transactions on Dependable and Secure Computing","rank":"A","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"TIFS","name":"IEEE Transactions on Information Forensics and Security","rank":"A","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"","name":"Journal of Cryptology","rank":"A","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"TOPS","name":"ACM Transactions on Privacy and Security","rank":"B","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"","name":"Computers & Security","rank":"B","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"","name":"Designs, Codes and Cryptography","rank":"B","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"JCS","name":"Journal of Computer Security","rank":"B","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"Cybersecurity","name":"Cybersecurity","rank":"B","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"CLSR","name":"Computer Law & Security Review","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"","name":"EURASIP Journal on Information Security","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"","name":"IET Information Security","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"IMCS","name":"Information and Computer Security","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"IJICS","name":"International Journal of Information and Computer Security","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"IJISP","name":"International Journal of Information Security and Privacy","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"JISA","name":"Journal of Information Security and Applications","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"SCN","name":"Security and Communication Networks","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"HCC","name":"High-Confidence Computing","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"CCS","name":"ACM Conference on Computer and Communications Security","rank":"A","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"EUROCRYPT","name":"International Conference on the Theory and Applications of Cryptographic Techniques","rank":"A","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"S&P","name":"IEEE Symposium on Security and Privacy","rank":"A","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"CRYPTO","name":"International Cryptology Conference","rank":"A","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"USENIX Security","name":"USENIX Security Symposium","rank":"A","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"NDSS","name":"Network and Distributed System Security Symposium","rank":"A","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ACSAC","name":"Annual Computer Security Applications Conference","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ASIACRYPT","name":"Annual International Conference on the Theory and Application of Cryptology and Information Security","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ESORICS","name":"European Symposium on Research in Computer Security","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"FSE","name":"Fast Software Encryption","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"CSFW","name":"IEEE Computer Security Foundations Workshop","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"SRDS","name":"IEEE International Symposium on Reliable Distributed Systems","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"CHES","name":"International Conference on Cryptographic Hardware and Embedded Systems","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"DSN","name":"International Conference on Dependable Systems and Networks","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"RAID","name":"International Symposium on Recent Advances in Intrusion Detection","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"PKC","name":"International Workshop on Practice and Theory in Public Key Cryptography","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"TCC","name":"Theory of Cryptography Conference","rank":"B","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"WiSec","name":"ACM Conference on Security and Privacy in Wireless and Mobile Networks","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"SACMAT","name":"ACM Symposium on Access Control Models and Technologies","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"DRM","name":"ACM Workshop on Digital Rights Management","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"IH&MMSec","name":"ACM Workshop on Information Hiding and Multimedia Security","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ACNS","name":"International Conference on Applied Cryptography and Network Security","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"AsiaCCS","name":"ACM Asia Conference on Computer and Communications Security","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ACISP","name":"Australasia Conference on Information Security and Privacy","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"CT-RSA","name":"The Cryptographer's Track at RSA Conference","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"DIMVA","name":"Conference on Detection of Intrusions and Malware & Vulnerability Assessment","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"DFRWS","name":"Digital Forensic Research Workshop","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"FC","name":"Financial Cryptography and Data Security","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"TrustCom","name":"IEEE International Conference on Trust, Security and Privacy in Computing and Communications","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"SEC","name":"IFIP International Information Security Conference","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"IFIP WG 11.9","name":"IFIP Working Group 11.9 International Conference on Digital Forensics","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ISC","name":"Information Security Conference","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ICDF2C","name":"International Conference on Digital Forensics & Cyber Crime","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"ICICS","name":"International Conference on Information and Communications Security","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"SecureComm","name":"International Conference on Security and Privacy in Communication Networks","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"NSPW","name":"New Security Paradigms Workshop","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"PAM","name":"Passive and Active Measurement Conference","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"PETS","name":"Privacy Enhancing Technologies Symposium","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"SAC","name":"Selected Areas in Cryptography","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"SOUPS","name":"Symposium On Usable Privacy and Security","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"HotSec","name":"USENIX Workshop on Hot Topics in Security","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"EuroS&P","name":"IEEE European Symposium on Security and Privacy","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"Inscrypt","name":"International Conference on Information Security and Cryptology","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"CODASPY","name":"Conference on Data and Application Security and Privacy","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"BlockSys","name":"International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems","rank":"C","category":"网络与信息安全"},
+    {"type":"conferencePaper","abbr":"CSCloud","name":"International Conference on Cyber Security and Cloud Computing","rank":"C","category":"网络与信息安全"},
+    {"type":"journalArticle","abbr":"TOPLAS","name":"ACM Transactions on Programming Languages and Systems","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"TOSEM","name":"ACM Transactions on Software Engineering and Methodology","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"TSE","name":"IEEE Transactions on Software Engineering","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"TSC","name":"IEEE Transactions on Services Computing","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"ASE","name":"Automated Software Engineering","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"ESE","name":"Empirical Software Engineering","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"IETS","name":"IET Software","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"IST","name":"Information and Software Technology","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"JFP","name":"Journal of Functional Programming","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"","name":"Journal of Software: Evolution and Process","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"JSS","name":"Journal of Systems and Software","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"RE","name":"Requirements Engineering","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"SCP","name":"Science of Computer Programming","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"SoSyM","name":"Software and Systems Modeling","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"STVR","name":"Software Testing, Verification and Reliability","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"SPE","name":"Software: Practice and Experience","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"CL","name":"Computer Languages, Systems and Structures","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"IJSEKE","name":"International Journal of Software Engineering and Knowledge Engineering","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"STTT","name":"International Journal of Software Tools for Technology Transfer","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"JLAMP","name":"Journal of Logical and Algebraic Methods in Programming","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"JWE","name":"Journal of Web Engineering","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"SOCA","name":"Service Oriented Computing and Applications","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"SQJ","name":"Software Quality Journal","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"TPLP","name":"Theory and Practice of Logic Programming","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"PACM PL","name":"Proceedings of the ACM on Programming Languages","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"PLDI","name":"ACM SIGPLAN Conference on Programming Language Design and Implementation","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"POPL","name":"ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"FSE","name":"ACM International Conference on the Foundations of Software Engineering","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"SOSP","name":"ACM Symposium on Operating Systems Principles","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"OOPSLA","name":"Conference on Object-Oriented Programming Systems, Languages, and Applications","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ASE","name":"International Conference on Automated Software Engineering","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICSE","name":"International Conference on Software Engineering","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ISSTA","name":"International Symposium on Software Testing and Analysis","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"OSDI","name":"USENIX Symposium on Operating Systems Design and Implementation","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"FM","name":"International Symposium on Formal Methods","rank":"A","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ECOOP","name":"European Conference on Object-Oriented Programming","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ETAPS","name":"European Joint Conferences on Theory and Practice of Software","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICPC","name":"IEEE International Conference on Program Comprehension","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"RE","name":"IEEE International Requirements Engineering Conference","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"CAiSE","name":"International Conference on Advanced Information Systems Engineering","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICFP","name":"ACM SIGPLAN International Conference on Function Programming","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"LCTES","name":"ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"MoDELS","name":"ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"CP","name":"International Conference on Principles and Practice of Constraint Programming","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICSOC","name":"International Conference on Service Oriented Computing","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"SANER","name":"IEEE International Conference on Software Analysis, Evolution, and Reengineering","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICSME","name":"International Conference on Software Maintenance and Evolution","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"VMCAI","name":"International Conference on Verification, Model Checking and Abstract Interpretation","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICWS","name":"IEEE International Conference on Web Services","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"Middleware","name":"International Middleware Conference","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"SAS","name":"International Static Analysis Symposium","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ESEM","name":"International Symposium on Empirical Software Engineering and Measurement","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ISSRE","name":"IEEE International Symposium on Software Reliability Engineering","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"HotOS","name":"USENIX Workshop on Hot Topics in Operating Systems","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"CC","name":"International Conference on Compiler Construction","rank":"B","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"PEPM","name":"ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"PASTE","name":"ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"APLAS","name":"Asian Symposium on Programming Languages and Systems","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"APSEC","name":"Asia-Pacific Software Engineering Conference","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"EASE","name":"International Conference on Evaluation and Assessment in Software Engineering","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICECCS","name":"International Conference on Engineering of Complex Computer Systems","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICST","name":"IEEE International Conference on Software Testing, Verification and Validation","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ISPASS","name":"IEEE International Symposium on Performance Analysis of Systems and Software","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"SCAM","name":"IEEE International Working Conference on Source Code Analysis and Manipulation","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"COMPSAC","name":"International Computer Software and Applications Conference","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICFEM","name":"International Conference on Formal Engineering Methods","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"SSE","name":"IEEE International Conference on Software Services Engineering","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICSSP","name":"International Conference on Software and System Process","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"SEKE","name":"International Conference on Software Engineering and Knowledge Engineering","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"QRS","name":"International Conference on Software Quality, Reliability and Security","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICSR","name":"International Conference on Software Reuse","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ICWE","name":"International Conference on Web Engineering","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"SPIN","name":"International Symposium on Model Checking of Software","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"ATVA","name":"International Symposium on Automated Technology for Verification and Analysis","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"LOPSTR","name":"International Symposium on Logic-based Program Synthesis and Transformation","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"TASE","name":"Theoretical Aspects of Software Engineering Conference","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"MSR","name":"Mining Software Repositories","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"REFSQ","name":"Requirements Engineering: Foundation for Software Quality","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"WICSA","name":"Working IEEE/IFIP Conference on Software Architecture","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"Internetware","name":"Asia-Pacific Symposium on Internetware","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"RV","name":"International Conference on Runtime Verification","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"conferencePaper","abbr":"MEMOCODE","name":"International Conference on Formal Methods and Models for Co-Design","rank":"C","category":"软件工程/系统软件/程序设计语言"},
+    {"type":"journalArticle","abbr":"TODS","name":"ACM Transactions on Database Systems","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"TOIS","name":"ACM Transactions on Information Systems","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"TKDE","name":"IEEE Transactions on Knowledge and Data Engineering","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"VLDBJ","name":"The VLDB Journal","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"TKDD","name":"ACM Transactions on Knowledge Discovery from Data","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"TWEB","name":"ACM Transactions on the Web","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"AEI","name":"Advanced Engineering Informatics","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"DKE","name":"Data & Knowledge Engineering","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"DMKD","name":"Data Mining and Knowledge Discovery","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"EJIS","name":"European Journal of Information Systems","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"","name":"GeoInformatica","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IPM","name":"Information Processing and Management","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"","name":"Information Sciences","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IS","name":"Information Systems","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"JASIST","name":"Journal of the Association for Information Science and Technology","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"JWS","name":"Journal of Web Semantics","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"KAIS","name":"Knowledge and Information Systems","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"DSE","name":"Data Science and Engineering","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"DPD","name":"Distributed and Parallel Databases","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"I&M","name":"Information & Management","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IPL","name":"Information Processing Letters","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"（原 IR）","name":"Discover Computing（原 Information Retrieval Journal）","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IJCIS","name":"International Journal of Cooperative Information Systems","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IJGIS","name":"International Journal of Geographical Information Science","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IJIS","name":"International Journal of Intelligent Systems","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IJKM","name":"International Journal of Knowledge Management","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"IJSWIS","name":"International Journal on Semantic Web and Information Systems","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"JCIS","name":"Journal of Computer Information Systems","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"JDM","name":"Journal of Database Management","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"JGITM","name":"Journal of Global Information Technology Management","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"JIIS","name":"Journal of Intelligent Information Systems","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"JSIS","name":"The Journal of Strategic Information Systems","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"TIST","name":"ACM Transactions on Intelligent Systems and Technology","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"TORS","name":"ACM Transactions on Recommender Systems","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"SIGMOD","name":"ACM SIGMOD Conference","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"SIGKDD","name":"ACM SIGKDD Conference on Knowledge Discovery and Data Mining","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ICDE","name":"IEEE International Conference on Data Engineering","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"SIGIR","name":"International ACM SIGIR Conference on Research and Development in Information Retrieval","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"VLDB","name":"International Conference on Very Large Data Bases","rank":"A","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"CIKM","name":"ACM International Conference on Information and Knowledge Management","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"WSDM","name":"ACM International Conference on Web Search and Data Mining","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"PODS","name":"ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"DASFAA","name":"International Conference on Database Systems for Advanced Applications","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ECML-PKDD","name":"European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ISWC","name":"IEEE International Semantic Web Conference","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ICDM","name":"IEEE International Conference on Data Mining","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ICDT","name":"International Conference on Database Theory","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"EDBT","name":"International Conference on Extending Database Technology","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"CIDR","name":"Conference on Innovative Data Systems Research","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"SDM","name":"SIAM International Conference on Data Mining","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"RecSys","name":"ACM Conference on Recommender Systems","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"WISE","name":"Web Information Systems Engineering Conference","rank":"B","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"APWeb","name":"Asia Pacific Web Conference","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"DEXA","name":"International Conference on Database and Expert System Applications","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ECIR","name":"European Conference on Information Retrieval","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ESWC","name":"Extended Semantic Web Conference","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"WebDB","name":"International Workshop on Web and Databases","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ER","name":"International Conference on Conceptual Modeling","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"MDM","name":"International Conference on Mobile Data Management","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"SSDBM","name":"International Conference on Scientific and Statistical Database Management","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"WAIM","name":"International Conference on Web Age Information Management","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"SSTD","name":"International Symposium on Spatial and Temporal Databases","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"PAKDD","name":"Pacific-Asia Conference on Knowledge Discovery and Data Mining","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"ADMA","name":"International Conference on Advanced Data Mining and Applications","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"conferencePaper","abbr":"WISA","name":"Web Information Systems and Applications","rank":"C","category":"数据库/数据挖掘/内容检索"},
+    {"type":"journalArticle","abbr":"TIT","name":"IEEE Transactions on Information Theory","rank":"A","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"IANDC","name":"Information and Computation","rank":"A","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"SICOMP","name":"SIAM Journal on Computing","rank":"A","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"TALG","name":"ACM Transactions on Algorithms","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"TOCL","name":"ACM Transactions on Computational Logic","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"TOMS","name":"ACM Transactions on Mathematical Software","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"Algorithmica","name":"Algorithmica","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"CC","name":"Computational Complexity","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"FAC","name":"Formal Aspects of Computing","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"FMSD","name":"Formal Methods in System Design","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"INFORMS","name":"INFORMS Journal on Computing","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"JCSS","name":"Journal of Computer and System Sciences","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"JGO","name":"Journal of Global Optimization","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"JSC","name":"Journal of Symbolic Computation","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"MSCS","name":"Mathematical Structures in Computer Science","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"TCS","name":"Theoretical Computer Science","rank":"B","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"ACTA","name":"Acta Informatica","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"APAL","name":"Annals of Pure and Applied Logic","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"DAM","name":"Discrete Applied Mathematics","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"FUIN","name":"Fundamenta Informaticae","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"IPL","name":"Information Processing Letters","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"JCOMPLEXI TY","name":"Journal of Complexity","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"LOGCOM","name":"Journal of Logic and Computation","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"JSL","name":"The Journal of Symbolic Logic","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"LMCS","name":"Logical Methods in Computer Science","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"SIDMA","name":"SIAM Journal on Discrete Mathematics","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"","name":"Theory of Computing Systems","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"TQC","name":"ACM Transactions in Quantum Computing","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"STOC","name":"ACM Symposium on the Theory of Computing","rank":"A","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"SODA","name":"ACM-SIAM Symposium on Discrete Algorithms","rank":"A","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"CAV","name":"International Conference on Computer Aided Verification","rank":"A","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"FOCS","name":"IEEE Annual Symposium on Foundations of Computer Science","rank":"A","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"LICS","name":"ACM/IEEE Symposium on Logic in Computer Science","rank":"A","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"SoCG","name":"International Symposium on Computational Geometry","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"ESA","name":"European Symposium on Algorithms","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"CCC","name":"Conference on Computational Complexity","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"ICALP","name":"International Colloquium on Automata, Languages and Programming","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"CADE","name":"Conference on Automated Deduction","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"CONCUR","name":"International Conference on Concurrency Theory","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"HSCC","name":"International Conference on Hybrid Systems: Computation and Control","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"SAT","name":"International Conference on Theory and Applications of Satisfiability Testing","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"COCOON","name":"International Computing and Combinatorics Conference","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"FMCAD","name":"Formal Methods in Computer-Aided Design","rank":"B","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"CSL","name":"Computer Science Logic","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"FSTTCS","name":"Foundations of Software Technology and Theoretical Computer Science","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"DSAA","name":"IEEE International Conference on Data Science and Advanced Analytics","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"ICTAC","name":"International Colloquium on Theoretical Aspects of Computing","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"IPCO","name":"International Conference on Integer Programming and Combinatorial Optimization","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"FSCD（原 RTA）","name":"International Conference on Formal Structures for Computation and Deduction","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"ISAAC","name":"International Symposium on Algorithms and Computation","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"MFCS","name":"International Conference on Mathematical Foundations of Computer Science","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"STACS","name":"Symposium on Theoretical Aspects of Computer Science","rank":"C","category":"计算机科学理论"},
+    {"type":"conferencePaper","abbr":"SETTA","name":"International Symposium on Software Engineering: Theories, Tools, and Applications","rank":"C","category":"计算机科学理论"},
+    {"type":"journalArticle","abbr":"TOG","name":"ACM Transactions on Graphics","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"TIP","name":"IEEE Transactions on Image Processing","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"TVCG","name":"IEEE Transactions on Visualization and Computer Graphics","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"TMM","name":"IEEE Transactions on Multimedia","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"TOMM","name":"ACM Transactions on Multimedia Computing, Communications and Applications","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"CAGD","name":"Computer Aided Geometric Design","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"CGF","name":"Computer Graphics Forum","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"CAD","name":"Computer-Aided Design","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"TCSVT","name":"IEEE Transactions on Circuits and Systems for Video Technology","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"JASA","name":"The Journal of the Acoustical Society of America","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"SIIMS","name":"SIAM Journal on Imaging Sciences","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"SPECOM","name":"Speech Communication","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"CVMJ","name":"Computational Visual Media","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"CGTA","name":"Computational Geometry: Theory and Applications","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"CAVW","name":"Computer animation & virtual worlds","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"C&G","name":"Computers & Graphics","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"DCG","name":"Discrete & Computational Geometry","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"SPL","name":"IEEE Signal Processing Letters","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"IET-IPR","name":"IET Image Processing","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"JVCIR","name":"Journal of Visual Communication and Image Representation","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"MS","name":"Multimedia Systems","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"MTA","name":"Multimedia Tools and Applications","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"SIGPRO","name":"Signal Processing","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"IMAGE","name":"Signal Processing: Image Communication","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"TVC","name":"The Visual Computer","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"VI","name":"Visual Informatics","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"VRIH","name":"Virtual Reality & Intelligent Hardware","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"GMOD","name":"Graphical Models","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ACM MM","name":"ACM International Conference on Multimedia","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"SIGGRAPH","name":"ACM Special Interest Group on Computer Graphics","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"VR","name":"IEEE Conference on Virtual Reality and 3D User Interfaces（原 IEEE Virtual Reality）","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"IEEE VIS","name":"IEEE Visualization Conference","rank":"A","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ICMR","name":"ACM SIGMM International Conference on Multimedia Retrieval","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"I3D","name":"ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"SCA","name":"ACM SIGGRAPH/Eurographics Symposium on Computer Animation","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"DCC","name":"Data Compression Conference","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"Eurographics","name":"Annual Conference of the European Association for Computer Graphics","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"EuroVis","name":"Eurographics Conference on Visualization","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"SGP","name":"Eurographics Symposium on Geometry Processing","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"EGSR","name":"Eurographics Symposium on Rendering","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ICASSP","name":"IEEE International Conference on Acoustics, Speech and Signal Processing","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ICME","name":"IEEE International Conference on Multimedia & Expo","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ISMAR","name":"International Symposium on Mixed and Augmented Reality","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"PG","name":"Pacific Conference onComputer Graphics and Applications","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"SPM","name":"Symposium on Solid and Physical Modeling","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"INTER-SPEECH","name":"Conference of the International Speech Communication Association","rank":"B","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"VRST","name":"ACM Symposium on Virtual Reality Software and Technology","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"CASAXR（原 CASA）","name":"International Conference on Computer Animation, Social Agents, and Extended Reality（原 International Conference on Computer Animation and Social Agents）","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"CGI","name":"Computer Graphics International","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"GMP","name":"Geometric Modeling and Processing","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"PacificVis","name":"IEEE Pacific Visualization Symposium","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"3DV","name":"International Conference on 3D Vision","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"CAD/Graphics","name":"International Conference on Computer-Aided Design and Computer Graphics Processing","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ICIP","name":"IEEE International Conference on Image Processing","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"MMM","name":"International Conference on Multimedia Modeling","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"MMAsia","name":"ACM Multimedia Asia","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"SMI","name":"Shape Modeling International","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"CVM","name":"Computational Visual Media","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"PRCV","name":"Chinese Conference on Pattern Recognition and Computer Vision","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ICIG","name":"International Conference on Image and Graphics","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"NCMMSC","name":"National Conference on Man-Machine Speech Communication","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"ASRU","name":"Automatic Speech Recognition and Understanding Workshop","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"conferencePaper","abbr":"SLT","name":"Spoken Language Technology","rank":"C","category":"计算机图形学与多媒体"},
+    {"type":"journalArticle","abbr":"AI","name":"Artificial Intelligence","rank":"A","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TPAMI","name":"IEEE Transactions on Pattern Analysis and Machine Intelligence","rank":"A","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJCV","name":"International Journal of Computer Vision","rank":"A","category":"人工智能"},
+    {"type":"journalArticle","abbr":"JMLR","name":"Journal of Machine Learning Research","rank":"A","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TAP","name":"ACM Transactions on Applied Perception","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"AAMAS","name":"Autonomous Agents and Multi-Agent Systems","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Computational Linguistics","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"CVIU","name":"Computer Vision and Image Understanding","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"DKE","name":"Data & Knowledge Engineering","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Evolutionary Computation","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TAC","name":"IEEE Transactions on Affective Computing","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TASLP","name":"IEEE Transactions on Audio, Speech and Language Processing（原 IEEE/ACM Transactions on Audio, Speech and Language Processing）","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"IEEE Transactions on Cybernetics","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TEC","name":"IEEE Transactions on Evolutionary Computation","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TFS","name":"IEEE Transactions on Fuzzy Systems","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TNNLS","name":"IEEE Transactions on Neural Networks and learning systems","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJAR","name":"International Journal of Approximate Reasoning","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"JAIR","name":"Journal of Artificial Intelligence Research","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Journal of Automated Reasoning","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"JSLHR","name":"Journal of Speech, Language, and Hearing Research","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Machine Learning","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Neural Computation","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Neural Networks","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"PR","name":"Pattern Recognition","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TACL","name":"Transactions of the Association for Computational Linguistics","rank":"B","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TALLIP","name":"ACM Transactions on Asian and Low-Resource Language Information Processing","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Applied Intelligence","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"AIM","name":"Artificial Intelligence in Medicine","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Artificial Life","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Computational Intelligence","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Computer Speech & Language","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Connection Science","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"DSS","name":"Decision Support Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"EAAI","name":"Engineering Applications of Artificial Intelligence","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Expert Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"ESWA","name":"Expert Systems with Applications","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Fuzzy Sets and Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TG","name":"IEEE Transactions on Games","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IET-CVI","name":"IET Computer Vision","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"IET Signal Processing","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IVC","name":"Image and Vision Computing","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IDA","name":"Intelligent Data Analysis","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJCIA","name":"International Journal of Computational Intelligence and Applications","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJIS","name":"International Journal of Intelligent Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJNS","name":"International Journal of Neural Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJPRAI","name":"International Journal of Pattern Recognition and Artificial Intelligence","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJUFKS","name":"International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"IJDAR","name":"International Journal on Document Analysis and Recognition","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"JETAI","name":"Journal of Experimental and Theoretical Artificial Intelligence","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"KBS","name":"Knowledge-Based Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Machine Translation","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Machine Vision and Applications","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Natural Computing","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"NLE","name":"Natural Language Engineering","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"NCA","name":"Neural Computing and Applications","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"NPL","name":"Neural Processing Letters","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Neurocomputing","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"PAA","name":"Pattern Analysis and Applications","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"PRL","name":"Pattern Recognition Letters","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"","name":"Soft Computing","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"WI","name":"Web Intelligence","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TIIS","name":"ACM Transactions on Interactive Intelligent Systems","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TELO","name":"ACM Transactions on Evolutionary Learning and Optimization","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"JATS","name":"ACM Journal on Autonomous Transportation Systems","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"AAAI","name":"AAAI Conference on Artificial Intelligence","rank":"A","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"NeurIPS","name":"Conference on Neural Information Processing Systems","rank":"A","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ACL","name":"Annual Meeting of the Association for Computational Linguistics","rank":"A","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"CVPR","name":"IEEE/CVF Computer Vision and Pattern Recognition Conference","rank":"A","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICCV","name":"International Conference on Computer Vision","rank":"A","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICML","name":"International Conference on Machine Learning","rank":"A","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICLR","name":"International Conference on Learning Representations","rank":"A","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"COLT","name":"Annual Conference on Computational Learning Theory","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"EMNLP","name":"Conference on Empirical Methods in Natural Language Processing","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ECAI","name":"European Conference on Artificial Intelligence","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ECCV","name":"European Conference on Computer Vision","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICRA","name":"IEEE International Conference on Robotics and Automation","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICAPS","name":"International Conference on Automated Planning and Scheduling","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICCBR","name":"International Conference on Case-Based Reasoning","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"COLING","name":"International Conference on Computational Linguistics","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"KR","name":"International Conference on Principles of Knowledge Representation and Reasoning","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"UAI","name":"Conference on Uncertainty in Artificial Intelligence","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"AAMAS","name":"International Joint Conference on Autonomous Agents and Multi-agent Systems","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"PPSN","name":"Parallel Problem Solving from Nature","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"NAACL","name":"North American Chapter of the Association for Computational Linguistics","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"IJCAI","name":"International Joint Conference on Artificial Intelligence","rank":"B","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"AISTATS","name":"International Conference on Artificial Intelligence and Statistics","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ACCV","name":"Asian Conference on Computer Vision","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ACML","name":"Asian Conference on Machine Learning","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"BMVC","name":"British Machine Vision Conference","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"NLPCC","name":"CCF International Conference on Natural Language Processing and Chinese Computing","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"CoNLL","name":"Conference on Computational Natural Language Learning","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"GECCO","name":"Genetic and Evolutionary Computation Conference","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICTAI","name":"IEEE International Conference on Tools with Artificial Intelligence","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"IROS","name":"IEEE\\RSJ International Conference on Intelligent Robots and Systems","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ALT","name":"International Conference on Algorithmic Learning Theory","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICANN","name":"International Conference on Artificial Neural Networks","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"FG","name":"IEEE International Conference on Automatic Face and Gesture Recognition","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICDAR","name":"International Conference on Document Analysis and Recognition","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ILP","name":"International Conference on Inductive Logic Programming","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"KSEM","name":"International conference on Knowledge Science, Engineering and Management","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICONIP","name":"International Conference on Neural Information Processing","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"ICPR","name":"International Conference on Pattern Recognition","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"IJCB","name":"International Joint Conference on Biometrics","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"IJCNN","name":"International Joint Conference on Neural Networks","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"PRICAI","name":"Pacific Rim International Conference on Artificial Intelligence","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"IEEE CEC","name":"Congress on Evolutionary Computation","rank":"C","category":"人工智能"},
+    {"type":"conferencePaper","abbr":"DAI","name":"International Conference on Distributed Artificial Intelligence","rank":"C","category":"人工智能"},
+    {"type":"journalArticle","abbr":"TOCHI","name":"ACM Transactions on Computer-Human Interaction","rank":"A","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"IJHCS","name":"International Journal of Human-Computer Studies","rank":"A","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"CSCW","name":"Computer Supported Cooperative Work","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"HCI","name":"Human-Computer Interaction","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"","name":"IEEE Transactions on Human-Machine Systems","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"IWC","name":"Interacting with Computers","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"IJHCI","name":"International Journal of Human-Computer Interaction","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"UMUAI","name":"User Modeling and User-Adapted Interaction","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"TSMC","name":"IEEE Transactions on Systems, Man,and Cybernetics: Systems","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"CCF TPCI","name":"CCF Transactions on Pervasive Computing and Interaction","rank":"B","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"BIT","name":"Behaviour & Information Technology","rank":"C","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"PUC","name":"Personal and Ubiquitous Computing","rank":"C","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"PMC","name":"Pervasive and Mobile Computing","rank":"C","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"PACMHCI","name":"Proceedings of the ACM on Human-Computer Interaction","rank":"C","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"THRI","name":"ACM Transactions on Human-Robot Interaction","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"CSCW","name":"ACM Conference On Computer-Supported Cooperative Work And Social Computing","rank":"A","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"CHI","name":"ACM Conference on Human Factors in Computing Systems","rank":"A","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"UbiComp","name":"ACM international joint conference on Pervasive and Ubiquitous Computing","rank":"A","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"UIST","name":"ACM Symposium on User Interface Software and Technology","rank":"A","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"GROUP","name":"ACM International Conference on Supporting Group Work","rank":"B","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"IUI","name":"ACM International Conference on Intelligent User Interfaces","rank":"B","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"ISS","name":"ACM International Conference on Interactive Surfaces and Spaces","rank":"B","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"ECSCW","name":"European Conference on Computer Supported Cooperative Work","rank":"B","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"PERCOM","name":"IEEE International Conference on Pervasive Computing and Communications","rank":"B","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"MobileHCI","name":"ACM International Conference on Mobile Human- Computer Interaction","rank":"B","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"ICWSM","name":"The International AAAI Conference on Web and Social Media","rank":"B","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"DIS","name":"ACM SIGCHI Conference on Designing Interactive Systems","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"ICMI","name":"ACM International Conference on Multimodal Interaction","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"ASSETS","name":"International ACM SIGACCESS Conference on Computers and Accessibility","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"GI","name":"Graphics Interface","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"UIC","name":"IEEE International Conference on Ubiquitous Intelligence and Computing","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"","name":"IEEE World Haptics Conference","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"INTERACT","name":"International Conference on Human- Computer Interaction of International Federation for Information Processing","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"IDC","name":"ACM Interaction Design and Children","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"CollaborateCom","name":"International Conference on Collaborative Computing: Networking, Applications and Worksharing","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"CSCWD","name":"International Conference on Computer Supported Cooperative Work in Design","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"CoopIS","name":"International Conference on Cooperative Information Systems","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"MobiQuitous","name":"International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"AVI","name":"International Working Conference on Advanced Visual Interfaces","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"GPC","name":"Conference on Green, Pervasive and Cloud Computing","rank":"C","category":"人机交互与普适计算"},
+    {"type":"conferencePaper","abbr":"ICXR","name":"CCF International Conference on Extended Reality","rank":"C","category":"人机交互与普适计算"},
+    {"type":"journalArticle","abbr":"JACM","name":"Journal of the ACM","rank":"A","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"Proc. IEEE","name":"Proceedings of the IEEE","rank":"A","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"SCIS","name":"Science China Information Sciences","rank":"A","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"Bioinformatics","name":"Bioinformatics","rank":"A","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"Briefings in Bioinformatics","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"Cognition","name":"Cognition","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TASAE","name":"IEEE Transactions on Automation Science and Engineering","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TGARS","name":"IEEE Transactions on Geoscience and Remote Sensing","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TITS","name":"IEEE Transactions on Intelligent Transportation Systems","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TMI","name":"IEEE Transactions on Medical Imaging","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TR","name":"IEEE Transactions on Robotics","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TCBB","name":"IEEE/ACM Transactions on Computational Biology and Bioinformatics","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"JCST","name":"Journal of Computer Science and Technology","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"JAMIA","name":"Journal of the American Medical Informatics Association","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"PLOS Computational Biology","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"The Computer Journal","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"WWW","name":"World Wide Web","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"FCS","name":"Frontiers of Computer Science","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"BCRA","name":"Blockchain: Research and Applications","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"BMC Bioinformatics","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"Cybernetics and Systems","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"IEEE Geoscience and Remote Sensing Letters","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"JBHI","name":"IEEE Journal of Biomedical and Health Informatics","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TBD","name":"IEEE Transactions on Big Data","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"IET Intelligent Transport Systems","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"JBI","name":"Journal of Biomedical Informatics","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"Medical Image Analysis","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TII","name":"IEEE Transactions on Industrial Informatics","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TCPS","name":"ACM Transactions on Cyber-Physical Systems","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TOCE","name":"ACM Transactions on Computing Education","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"EITEE（原 FITEE）","name":"ENGINEERING Information Technology & Electronic Engineering（原 Frontiers of Information Technology & Electronic Engineering）","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"TCSS","name":"IEEE Transactions on Computational Social Systems","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"","name":"IEEE Transactions on Reliability","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"HEALTH","name":"ACM Transactions on Computing for Healthcare","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"journalArticle","abbr":"ACM DLT","name":"ACM Distributed Ledger Technologies: Research and Practice","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"WWW","name":"The Web Conference（原 International World Wide Web Conference）","rank":"A","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"RTSS","name":"IEEE Real-Time Systems Symposium","rank":"A","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"CogSci","name":"Annual Meeting of the Cognitive Science Society","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"BIBM","name":"IEEE International Conference on Bioinformatics and Biomedicine","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"EMSOFT","name":"International Conference on Embedded Software","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"ISMB","name":"International conference on Intelligent Systems for Molecular Biology","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"RECOMB","name":"Annual International Conference on Research in Computational Molecular Biology","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"MICCAI","name":"International Conference on Medical Image Computing and Computer-Assisted Intervention","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"WINE","name":"Conference on Web and Internet Economics","rank":"B","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"AMIA","name":"American Medical Informatics Association Annual Symposium","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"APBC","name":"Asia Pacific Bioinformatics Conference","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"IEEE BigData","name":"IEEE International Conference on Big Data","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"IEEE CLOUD","name":"IEEE International Conference on Cloud Computing","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"SMC","name":"IEEE International Conference on Systems, Man, and Cybernetics","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"COSIT","name":"International Conference on Spatial Information Theory","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"ISBRA","name":"International Symposium on Bioinformatics Research and Applications","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"SAGT","name":"International Symposium on Algorithmic Game Theory","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"SIGSPATIAL","name":"ACM Special Interest Group on Spatial Information","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"ICIC","name":"International Conference on Intelligent Computing","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"ICSS","name":"International Conference on Service Science","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"AFT","name":"Advances in Financial Technologies","rank":"C","category":"交叉/综合/新兴"},
+    {"type":"conferencePaper","abbr":"IJTCS-FAW","name":"International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom","rank":"C","category":"交叉/综合/新兴"}
   ]
 };
