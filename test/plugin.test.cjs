@@ -128,7 +128,7 @@ test('2026 catalog includes newly ranked and reclassified venues', () => {
   const { scope } = setup();
   const match = (type, fields, abbr = '') => scope.CCFMatcher.match(venue(type, fields), abbr);
   assert.equal(scope.CCF_DATA.entries.length, 681);
-  for (const name of ['ICLR', 'ICLR 2026', 'The Fourteenth International Conference on Learning Representations',
+  for (const name of ['ICLR', 'ICLR 2026', '2026 The Fourteenth International Conference on Learning Representations', 'The Fourteenth International Conference on Learning Representations',
     'Proceedings of the 14th International Conference on Learning Representations (ICLR 2026)']) {
     assert.equal(match('conferencePaper', { proceedingsTitle: name }).entry?.rank, 'A', name);
   }
@@ -215,4 +215,24 @@ test('bootstrap loads packaged scripts using Zotero rootURI', () => {
   assert.deepEqual(loaded, ['ccf-data.js', 'ccf.js']);
   assert.equal(scope.CCFMatcher.match(venue('conferencePaper', { conferenceName: 'ICLR' }), '').entry?.rank, 'A');
   scope.shutdown({}, 4);
+});
+
+test('ambiguous and unknown supplied fields cannot be hidden by a recognized field', () => {
+  const { scope } = setup();
+  for (const fields of [
+    { conferenceName: 'FSE', proceedingsTitle: 'Fast Software Encryption' },
+    { conferenceName: 'Unknown', proceedingsTitle: 'ICLR' },
+    { conferenceName: 'ICLR', proceedingsTitle: 'Unknown' },
+  ]) assert.equal(scope.CCFMatcher.match(venue('conferencePaper', fields), '').entry, null);
+  assert.equal(scope.CCFMatcher.match(venue('conferencePaper', { conferenceName: 'ICLR' }), 'Unknown').entry, null);
+});
+
+test('published venue spellings and corrected line-wrapped abbreviation match independently', () => {
+  const { scope } = setup();
+  for (const name of [
+    'ACM SIGPLAN International Conference on Functional Programming',
+    'ACM/IEEE International Conference on Model-Driven Engineering Languages and Systems',
+    'Pacific Conference on Computer Graphics and Applications'
+  ]) assert.equal(scope.CCFMatcher.match(venue('conferencePaper', { conferenceName: name }), '').entry?.rank, 'B', name);
+  assert.equal(scope.CCFMatcher.match(venue('journalArticle', { journalAbbreviation: 'JCOMPLEXITY' }), '').entry?.rank, 'C');
 });

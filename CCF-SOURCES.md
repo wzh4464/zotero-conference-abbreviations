@@ -21,10 +21,24 @@ conference whose official name contains “Workshop” can still match its own r
 Names are matched exactly after case, punctuation, year, ordinal and proceedings
 prefix normalization. A small explicit alias list handles common CVPR, NeurIPS
 and ICLR naming variants. Conflicting recognized venues and ambiguous names are
-left to Green Frog's original provider. Unrecognized entries retain its existing
+left to Green Frog's original provider. Every supplied venue or abbreviation
+must be recognized and unambiguous; an unknown value also causes fallback. Unrecognized entries retain its existing
 value; that fallback is not a claim that this plugin verified the entry.
 
 PDF SHA-256: `271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3`.
 
 The formal PDF was re-extracted locally using the transcription project’s table
 extractor; all 681 records matched its JSON, including venue names and ranks.
+
+## Transcription corrections
+
+Ranks and catalog membership are unchanged. The packaged spelling corrects four
+source/PDF extraction defects (conference source spellings also remain aliases):
+
+- ICFP: Function → Functional Programming ([conference](https://icfp26.sigplan.org/)).
+- MoDELS: EngineeringLanguages → Engineering Languages ([conference](https://conf.researchr.org/home/models-2026)).
+- PG: onComputer → on Computer ([DBLP proceedings](https://dblp.org/db/conf/pg/)).
+- Journal of Complexity: the PDF abbreviation wraps JCOMPLEXI + TY; join it to JCOMPLEXITY.
+
+Independent unit assertions cover these corrected names rather than deriving
+all test inputs from the packaged catalog.

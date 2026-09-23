@@ -10,6 +10,7 @@ var CCFMatcher = {
       .replace(/\b(?:19|20)\d{2}\b/g, '')
       .replace(/\b\d+(?:st|nd|rd|th)\b/g, '')
       .replace(/\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth)\b/g, '')
+      .trim().replace(/\s+/g, ' ')
       .replace(/^(?:proceedings of (?:the )?|the )/, '')
       .trim().replace(/\s+/g, ' ');
   },
@@ -36,7 +37,11 @@ var CCFMatcher = {
       'Advances in Neural Information Processing Systems': 'NeurIPS',
       'International Conference on Learning Representation': 'ICLR',
       'IEEE Conference on Computer Vision and Pattern Recognition': 'CVPR',
-      'IEEE/CVF Conference on Computer Vision and Pattern Recognition': 'CVPR'
+      'IEEE/CVF Conference on Computer Vision and Pattern Recognition': 'CVPR',
+      // Source-PDF spellings retained as aliases for existing imported metadata.
+      'ACM SIGPLAN International Conference on Function Programming': 'ICFP',
+      'ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems': 'MoDELS',
+      'Pacific Conference onComputer Graphics and Applications': 'PG'
     };
     for (const [alias, target] of Object.entries(aliases)) {
       const entry = this.indexes.conferencePaper.get(this.clean(target));
@@ -61,8 +66,9 @@ var CCFMatcher = {
         return { entry: null, excluded: true };
       }
     }
-    const matches = values.map(value => index.get(this.clean(value))).filter(Boolean);
-    if (!matches.length || matches.some(entry => entry !== matches[0])) return { entry: null, excluded: false };
+    const matches = values.map(value => index.get(this.clean(value)));
+    // A recognized value must not hide ambiguous or unknown supplied metadata.
+    if (!matches.length || matches.some(entry => !entry || entry !== matches[0])) return { entry: null, excluded: false };
     return { entry: matches[0], excluded: false };
   }
 };

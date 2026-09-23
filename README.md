@@ -42,7 +42,7 @@ ICLR、ICLR 2026、The Fourteenth International Conference on Learning Represent
 Workshop、Findings、Short/Demo 等元数据标记会阻止继承主会等级；
 目录中独立列出的 Workshop 则按自身条目匹配。元数据未标明论文类型时，
 插件无法判定其是否符合 CCF 对 full/regular paper 的要求。
-无法识别或名称冲突时保留绿青蛙原值，因此旧的手填等级仍可能存在。
+任何已填的名称/简称无法识别、有歧义或相互冲突时，保留绿青蛙原值，因此旧的手填等级仍可能存在。
 等级按 **2026 版目录** 展示，不按论文发表年份回溯历史等级。
 完整出处、正式 PDF 校验值及匹配限制见 [CCF-SOURCES.md](CCF-SOURCES.md)。
 
@@ -60,6 +60,7 @@ Zotero 10.0.4 还检查了原生表格实际渲染、冷启动、分类刷新，
 构建：`python3 build.py`。单元检查：`node --test test/plugin.test.cjs`。
 `test/runtime-bootstrap.js` 是仅供隔离库使用的运行时测试，不打包进插件。
 测试记录保存在 `test/runtime-result-zotero-10.0.4.json` 等文件。
+CCF 实测的复现步骤与路径参数见 [test/README.md](test/README.md)。
 
 遵循 Zotero 的 [bootstrapped 插件格式](https://www.zotero.org/support/dev/zotero_7_for_developers)。
 

@@ -1,10 +1,12 @@
-async function runCCFRestart() {
-  if (!/^\/(?:private\/)?tmp\/zotero-conference-plugin-test-20260923\/data$/.test(Zotero.DataDirectory.dir)) {
-    throw new Error('Restart test requires the isolated data directory');
+async function runCCFRestart({ isolatedDataDirectory, evidencePath } = {}) {
+  const canonical = path => { const file = Zotero.File.pathToFile(path); file.normalize(); return file.path; };
+  if (!isolatedDataDirectory || canonical(isolatedDataDirectory) !== canonical(Zotero.DataDirectory.dir)) {
+    throw new Error('Pass the explicit isolatedDataDirectory of this test profile');
   }
-  const evidence = JSON.parse(await IOUtils.readUTF8('/Users/zihanwu/codes/zotero-conference-abbreviations/test/ccf-runtime-zotero-10.0.4.json'));
+  if (!evidencePath) throw new Error('Pass evidencePath from the preceding runtime test');
+  const evidence = JSON.parse(await IOUtils.readUTF8(evidencePath));
   const items = evidence.itemKeys.map(key => Zotero.Items.getByLibraryAndKey(Zotero.Libraries.userLibraryID, key));
-  const ranks = ['B', 'A', 'A', 'B', '', '', 'A', 'C', 'Custom', ''];
+  const ranks = evidence.expectedRanks;
   const checks = [], window = Zotero.getMainWindow();
   const wait = ms => new Promise(resolve => window.setTimeout(resolve, ms));
   const check = (ok, text) => { if (!ok) throw new Error(text); checks.push(text); };

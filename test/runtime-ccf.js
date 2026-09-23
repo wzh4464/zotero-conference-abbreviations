@@ -1,8 +1,9 @@
 // Run via loadSubScriptWithOptions({target:{Zotero,IOUtils,ChromeUtils},ignoreCache:true}).
 // Explicitly isolated from a user's library; requires Green Frog 0.22.2 installed.
-async function runCCF() {
-  if (!/^\/(?:private\/)?tmp\/zotero-conference-plugin-test-20260923\/data$/.test(Zotero.DataDirectory.dir)) {
-    throw new Error('CCF runtime test requires the isolated data directory');
+async function runCCF({ isolatedDataDirectory } = {}) {
+  const canonical = path => { const file = Zotero.File.pathToFile(path); file.normalize(); return file.path; };
+  if (!isolatedDataDirectory || canonical(isolatedDataDirectory) !== canonical(Zotero.DataDirectory.dir)) {
+    throw new Error('Pass the explicit isolatedDataDirectory of this test profile');
   }
   const { AddonManager } = ChromeUtils.importESModule('resource://gre/modules/AddonManager.sys.mjs');
   const addon = await AddonManager.getAddonByID('conference-abbreviations@zihanwu.local');
@@ -28,6 +29,12 @@ async function runCCF() {
     ['conferencePaper', { conferenceName: 'AISTATS' }, 'C'],
     ['conferencePaper', { conferenceName: 'Unknown conference', extra: 'CCF: Custom' }, 'Custom'],
     ['preprint', { extra: 'Container Title Short: ICLR' }, ''],
+    ['conferencePaper', { conferenceName: 'FSE', proceedingsTitle: 'Fast Software Encryption', extra: 'CCF: Original' }, 'Original'],
+    ['conferencePaper', { conferenceName: 'Unknown', proceedingsTitle: 'ICLR', extra: 'CCF: Original' }, 'Original'],
+    ['conferencePaper', { conferenceName: 'ACM SIGPLAN International Conference on Functional Programming' }, 'B'],
+    ['conferencePaper', { conferenceName: 'ACM/IEEE International Conference on Model-Driven Engineering Languages and Systems' }, 'B'],
+    ['conferencePaper', { conferenceName: 'Pacific Conference on Computer Graphics and Applications' }, 'B'],
+    ['journalArticle', { journalAbbreviation: 'JCOMPLEXITY' }, 'C'],
   ];
   const entries = [];
   for (const [type, fields, rank] of cases) {
@@ -64,5 +71,5 @@ async function runCCF() {
   await frog.enable(); await wait(1000);
   await pane.itemsView.refreshAndMaintainSelection();
   check(columns().length === 1 && cell(entries[1]) === 'A', 'Green Frog re-enable recreates its column with current ranks');
-  return { ok: true, pluginVersion: addon.version, zoteroVersion: Zotero.version, greenFrogVersion: frog.version, checks, itemKeys: entries.map(e => e.item.key) };
+  return { ok: true, pluginVersion: addon.version, zoteroVersion: Zotero.version, greenFrogVersion: frog.version, checks, expectedRanks: entries.map((e, i) => i === 0 ? 'B' : e.rank), itemKeys: entries.map(e => e.item.key) };
 }
