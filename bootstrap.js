@@ -2,6 +2,37 @@
 var ConferenceAbbreviations = {
   active: false,
   windows: new Map(),
+  ccfHook: null,
+
+  attachCCF() {
+    const manager = Zotero.ItemTreeManager;
+    if (!manager?.getCustomCellData || typeof CCFMatcher === "undefined" || this.ccfHook) return;
+    const previous = manager.getCustomCellData;
+    const record = { active: true, previous };
+    const owner = this;
+    record.wrapper = function (item, dataKey, ...args) {
+      // Zotero escapes punctuation in registered data keys. Check ownership too.
+      if (record.active && String(dataKey).replace(/\\/g, '') === 'greenfrog@redleafnew.me-CCF'
+          && this.getCustomColumns().some(c => c.dataKey === dataKey && c.pluginID === 'greenfrog@redleafnew.me')) {
+        const result = CCFMatcher.match(item, owner.parseExtra(item.getField('extra')));
+        if (result.excluded) return '';
+        if (result.entry) return result.entry.rank;
+      }
+      return previous.call(this, item, dataKey, ...args);
+    };
+    this.ccfHook = record;
+    manager.getCustomCellData = record.wrapper;
+  },
+
+  detachCCF() {
+    const record = this.ccfHook;
+    if (!record) return;
+    record.active = false;
+    if (Zotero.ItemTreeManager.getCustomCellData === record.wrapper) {
+      Zotero.ItemTreeManager.getCustomCellData = record.previous;
+    }
+    this.ccfHook = null;
+  },
 
   parseExtra(extra) {
     const fields = new Map();
@@ -37,7 +68,8 @@ var ConferenceAbbreviations = {
       if (!columns.length || (!tree._sortedColumn && !columns.some(c => !c.hidden))) return;
     }
     // Re-sort immediately when enabled/disabled with this column already sorted.
-    if (tree.getSortFields?.().includes("journalAbbreviation")) {
+    if (tree.getSortFields?.().some(key => key === "journalAbbreviation"
+        || String(key).replace(/\\/g, '') === 'greenfrog@redleafnew.me-CCF')) {
       Promise.resolve(tree.sort()).then(() => tree.tree?.invalidate()).catch(Zotero.logError);
     }
   },
@@ -110,13 +142,23 @@ var ConferenceAbbreviations = {
   }
 };
 
-function startup() {
+function startup(data) {
+  if (typeof CCFMatcher === "undefined") {
+    try {
+      for (const file of ['ccf-data.js', 'ccf.js']) {
+        Services.scriptloader.loadSubScript(data.rootURI + file, globalThis);
+      }
+      CCFMatcher.init();
+    } catch (error) { Zotero.logError(error); }
+  }
+  ConferenceAbbreviations.attachCCF();
   ConferenceAbbreviations.active = true;
   for (const window of Zotero.getMainWindows()) ConferenceAbbreviations.attachWindow(window);
 }
 
 function shutdown(data, reason) {
   ConferenceAbbreviations.active = false;
+  ConferenceAbbreviations.detachCCF();
   for (const window of ConferenceAbbreviations.windows.keys()) {
     ConferenceAbbreviations.detachWindow(window, reason !== APP_SHUTDOWN);
   }

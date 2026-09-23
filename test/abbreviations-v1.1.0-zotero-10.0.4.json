@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "version": "10.0.4",
+  "checks": [
+    "Installed and enabled",
+    "Native cell: Z: Iclr",
+    "Native cell: Y: Aaai",
+    "Native cell: X: Cvpr",
+    "Native cell: W: Workshop",
+    "Native cell: V: Journal",
+    "Native cell: U: Unpublished",
+    "Native column exists",
+    "Native column renders AAAI in an actual table cell",
+    "Native sort order",
+    "No writes: Z: Iclr",
+    "No writes: Y: Aaai",
+    "No writes: X: Cvpr",
+    "No writes: W: Workshop",
+    "No writes: V: Journal",
+    "No writes: U: Unpublished",
+    "Disable restores conference cell",
+    "Disable preserves journal cell",
+    "Re-enable restores conference cell",
+    "Editing Extra updates native cell"
+  ],
+  "order": [
+    "AAAI",
+    "CVPR",
+    "ICLR",
+    "ICML Workshop (MHF)",
+    "VLDB J."
+  ],
+  "pluginVersion": "1.1.0"
+}
