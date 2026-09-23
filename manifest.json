@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Conference Abbreviations / 会议简称",
-  "version": "1.0.0",
-  "description": "Show conference abbreviations from Extra in Zotero's native Journal Abbr column, including sorting.",
+  "version": "1.1.0",
+  "description": "Show conference abbreviations in Journal Abbr and match the CCF 2026 catalog in Green Frog’s existing CCF column.",
   "author": "Zihan Wu",
   "applications": {
     "zotero": {

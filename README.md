@@ -5,7 +5,7 @@
 ## 安装与使用
 
 1. 从 [最新 Release](https://github.com/wzh4464/zotero-conference-abbreviations/releases/latest) 下载 `.xpi`，在存放文献库的那台 Zotero 中打开「工具 → 插件」（Tools → Plugins）。
-2. 点击齿轮菜单，选择「从文件安装插件」，选中 `conference-abbreviations-1.0.0.xpi`。
+2. 点击齿轮菜单，选择「从文件安装插件」，选中 `conference-abbreviations-1.1.0.xpi`。
 3. 右键点击文献表格列标题，勾选「刊名简称」。已经显示该列时无需再添加。
 
 会议论文的 Extra 中填写一行，例如：
@@ -26,9 +26,31 @@ Container Title Short: ICLR
 通过 GitHub Release 的 `updates.json` 检查更新，更新文件带有 SHA-256 校验。
 如之前安装过使用 `.invalid` 更新地址的本地试用包，需要先手动安装一次本 Release。
 
+## 新版 CCF 与绿青蛙（1.1.0）
+
+已安装绿青蛙时，本插件直接补充它现有的 **CCF** 列。请在绿青蛙设置中开启
+CCF 列，并在表格列标题菜单勾选 CCF。无需 easyScholar 密钥或在线查询。
+不会新建另一列，也不会把计算结果写回 Extra；停用本插件恢复绿青蛙原来的值。
+
+内置 CCF 第七版（2026）正式目录的 681 条会议与期刊记录。
+例如 ICLR → A、IJCAI → B、HPDC → A、IEEE Transactions on Multimedia → A。
+识别会议名称、论文集标题、Extra 中的会议简称，以及期刊名称和原生简称。
+ICLR、ICLR 2026、The Fourteenth International Conference on Learning Representations
+均可匹配，不要求重新整理条目。原生「刊名简称」列仍显示 Extra 填写的原文。
+
+名称只做大小写、标点、年份和届次等规范化，不做任意子串猜测。
+Workshop、Findings、Short/Demo 等元数据标记会阻止继承主会等级；
+目录中独立列出的 Workshop 则按自身条目匹配。元数据未标明论文类型时，
+插件无法判定其是否符合 CCF 对 full/regular paper 的要求。
+无法识别或名称冲突时保留绿青蛙原值，因此旧的手填等级仍可能存在。
+等级按 **2026 版目录** 展示，不按论文发表年份回溯历史等级。
+完整出处、正式 PDF 校验值及匹配限制见 [CCF-SOURCES.md](CCF-SOURCES.md)。
+
 ## 兼容性与开发
 
-目标版本：Zotero 8–10。`getExtraField` 是内部接口；升级 Zotero 后需重新核验。
+目标版本：Zotero 8–10。`getExtraField` 和 CCF 单元格包装涉及内部接口；升级 Zotero 或绿青蛙后需重新核验。
+1.1.0 的 CCF 集成使用官方 Zotero 10.0.4 与绿青蛙 0.22.2 的真实 XPI 实测。
+下述 Zotero 8.0.4 记录来自 1.0.0 的会议简称功能测试。
 已在官方 Zotero 10.0.4 与 Zotero 8.0.4 隔离文献库实测 XPI 安装、
 原生单元格、列排序、刷新、Extra 修改、停用与重新启用。
 Zotero 10.0.4 还检查了原生表格实际渲染、冷启动、分类刷新，以及多窗口打开和关闭。
@@ -49,4 +71,4 @@ Zotero 10.0.4 还检查了原生表格实际渲染、冷启动、分类刷新，
 
 ## License
 
-MIT
+代码使用 MIT；CCF 目录数据版权归中国计算机学会，见 [CCF-SOURCES.md](CCF-SOURCES.md)。
