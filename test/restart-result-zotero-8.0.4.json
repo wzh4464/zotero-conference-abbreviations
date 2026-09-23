@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "version": "8.0.4",
+  "check": "Cold startup preserves native conference abbreviation cells",
+  "rows": [
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: AAAI",
+      "cell": "AAAI"
+    },
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: AAAI",
+      "cell": "AAAI"
+    },
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: CVPR",
+      "cell": "CVPR"
+    },
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: CVPR",
+      "cell": "CVPR"
+    },
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: ICLR",
+      "cell": "ICLR"
+    },
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: ICML Workshop (MHF)",
+      "cell": "ICML Workshop (MHF)"
+    },
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: ICML Workshop (MHF)",
+      "cell": "ICML Workshop (MHF)"
+    },
+    {
+      "type": "conferencePaper",
+      "extra": "Container Title Short: NeurIPS",
+      "cell": "NeurIPS"
+    }
+  ]
+}

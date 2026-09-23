@@ -1,0 +1,7 @@
+{
+  "version": "10.0.4",
+  "ok": true,
+  "conferenceRows": 24,
+  "check": "Final release package cold startup",
+  "collectionRefreshPreserved": true
+}

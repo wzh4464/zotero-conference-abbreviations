@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Conference Abbreviations / 会议简称",
+  "version": "1.0.0",
+  "description": "Show conference abbreviations from Extra in Zotero's native Journal Abbr column, including sorting.",
+  "author": "Zihan Wu",
+  "applications": {
+    "zotero": {
+      "id": "conference-abbreviations@zihanwu.local",
+      "update_url": "https://github.com/wzh4464/zotero-conference-abbreviations/releases/latest/download/updates.json",
+      "strict_min_version": "8.0",
+      "strict_max_version": "10.0.*"
+    }
+  },
+  "homepage_url": "https://github.com/wzh4464/zotero-conference-abbreviations"
+}

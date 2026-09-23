@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "version": "8.0.4",
+  "checks": [
+    "Installed and enabled",
+    "Native cell: Z: ICLR",
+    "Native cell: Y: AAAI",
+    "Native cell: X: CVPR",
+    "Native cell: W: Workshop",
+    "Native cell: V: Journal",
+    "Native cell: U: Unpublished",
+    "Native column exists",
+    "Native sort order",
+    "No writes: Z: ICLR",
+    "No writes: Y: AAAI",
+    "No writes: X: CVPR",
+    "No writes: W: Workshop",
+    "No writes: V: Journal",
+    "No writes: U: Unpublished",
+    "Disable restores conference cell",
+    "Disable preserves journal cell",
+    "Re-enable restores conference cell",
+    "Editing Extra updates native cell"
+  ],
+  "order": [
+    "AAAI",
+    "CVPR",
+    "ICLR",
+    "ICML Workshop (MHF)",
+    "VLDB J."
+  ]
+}
